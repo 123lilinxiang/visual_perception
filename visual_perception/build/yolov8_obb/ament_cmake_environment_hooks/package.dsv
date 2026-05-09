@@ -1,4 +1,0 @@
-source;share/yolov8_obb/local_setup.bash
-source;share/yolov8_obb/local_setup.dsv
-source;share/yolov8_obb/local_setup.sh
-source;share/yolov8_obb/local_setup.zsh

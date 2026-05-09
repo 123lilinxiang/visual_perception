@@ -1,6 +1,0 @@
-{
-  "package_name": "msg_det",
-  "non_idl_tuples": [
-    "/home/zxl/project/visual_perception/src/msg_det:msg/DetectRes.msg"
-  ]
-}
