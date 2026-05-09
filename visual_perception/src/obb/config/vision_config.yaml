@@ -1,0 +1,15 @@
+name: Grasp1.0
+
+
+detector:
+  obb_predictor:
+    #这里是模型类型的索引
+    engine_path: "/home/zxl/project/visual_perception/models/best.engine"
+    class: [-1,0, 1]
+    offset: []
+
+coord_trans:
+  head_joint_yaw_offset: [0.0005, 0.0, 0.59957]
+  head_joint_pitch_offset: [0.0, -0.0295, 0.1165]
+  camera_offset: [0.1169, 0.0618, 0.06321]
+  camera_tilt: 65.0

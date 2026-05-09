@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target yolov8_obb[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/yolov8_obb.dir/main.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/yolov8_obb.dir/src/yolov8-obb.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/yolov8_obb.dir/src/cam2robot.cpp.o[0m

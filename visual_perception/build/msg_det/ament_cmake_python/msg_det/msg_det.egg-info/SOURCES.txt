@@ -1,0 +1,8 @@
+setup.py
+msg_det/__init__.py
+msg_det.egg-info/PKG-INFO
+msg_det.egg-info/SOURCES.txt
+msg_det.egg-info/dependency_links.txt
+msg_det.egg-info/top_level.txt
+msg_det/msg/__init__.py
+msg_det/msg/_detect_res.py

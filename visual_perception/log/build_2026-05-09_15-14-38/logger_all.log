@@ -1,0 +1,436 @@
+[0.064s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.064s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x747e44d65db0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x747e44ede4a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x747e44ede4a0>>)
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.183s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/zxl/project/visual_perception'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'ros'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['cmake', 'python']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'cmake'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'python'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['python_setup_py']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'python_setup_py'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_det) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_det) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_det) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_det) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_det) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_det) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_det) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_det) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_det) by extension 'ros'
+[0.203s] DEBUG:colcon.colcon_core.package_identification:Package 'src/msg_det' with type 'ros.ament_cmake' and name 'msg_det'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/obb) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/obb) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/obb) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/obb) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/obb) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/obb) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/obb) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/obb) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/obb) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package 'src/obb' with type 'ros.ament_cmake' and name 'yolov8_obb'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense) by extension 'ros'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense) by extensions ['cmake', 'python']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense) by extension 'cmake'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense) by extension 'python'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense) by extensions ['python_setup_py']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense) by extension 'python_setup_py'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/realsense2_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/realsense2_camera) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/realsense2_camera) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/realsense2_camera) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/realsense2_camera) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/realsense2_camera) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/realsense2_camera) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/realsense2_camera) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/realsense2_camera) by extension 'ros'
+[0.208s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense/realsense2_camera' with type 'ros.ament_cmake' and name 'realsense2_camera'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/realsense2_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/realsense2_camera_msgs) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/realsense2_camera_msgs) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/realsense2_camera_msgs) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/realsense2_camera_msgs) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/realsense2_camera_msgs) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/realsense2_camera_msgs) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/realsense2_camera_msgs) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/realsense2_camera_msgs) by extension 'ros'
+[0.208s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense/realsense2_camera_msgs' with type 'ros.ament_cmake' and name 'realsense2_camera_msgs'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/realsense2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/realsense2_description) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/realsense2_description) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/realsense2_description) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/realsense2_description) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/realsense2_description) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/realsense2_description) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/realsense2_description) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/realsense2_description) by extension 'ros'
+[0.209s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense/realsense2_description' with type 'ros.ament_cmake' and name 'realsense2_description'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/scripts) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/scripts) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/scripts) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/scripts) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/scripts) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/scripts) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/scripts) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/scripts) by extension 'ros'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/scripts) by extensions ['cmake', 'python']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/scripts) by extension 'cmake'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/scripts) by extension 'python'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/scripts) by extensions ['python_setup_py']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense/scripts) by extension 'python_setup_py'
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.224s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/usr/local/share/OpenCV480' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.225s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 400 installed packages in /opt/ros/humble
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'msg_det' build argument 'cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'msg_det' build argument 'cmake_target' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'msg_det' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'msg_det' build argument 'cmake_clean_cache' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'msg_det' build argument 'cmake_clean_first' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'msg_det' build argument 'cmake_force_configure' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'msg_det' build argument 'ament_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'msg_det' build argument 'catkin_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'msg_det' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.254s] DEBUG:colcon.colcon_core.verb:Building package 'msg_det' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zxl/project/visual_perception/build/msg_det', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zxl/project/visual_perception/install/msg_det', 'merge_install': False, 'path': '/home/zxl/project/visual_perception/src/msg_det', 'symlink_install': False, 'test_result_base': None}
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_target' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.254s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_camera_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zxl/project/visual_perception/build/realsense2_camera_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zxl/project/visual_perception/install/realsense2_camera_msgs', 'merge_install': False, 'path': '/home/zxl/project/visual_perception/src/realsense/realsense2_camera_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_target' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.254s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zxl/project/visual_perception/build/realsense2_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zxl/project/visual_perception/install/realsense2_camera', 'merge_install': False, 'path': '/home/zxl/project/visual_perception/src/realsense/realsense2_camera', 'symlink_install': False, 'test_result_base': None}
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_target' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.255s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zxl/project/visual_perception/build/realsense2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zxl/project/visual_perception/install/realsense2_description', 'merge_install': False, 'path': '/home/zxl/project/visual_perception/src/realsense/realsense2_description', 'symlink_install': False, 'test_result_base': None}
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'yolov8_obb' build argument 'cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'yolov8_obb' build argument 'cmake_target' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'yolov8_obb' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'yolov8_obb' build argument 'cmake_clean_cache' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'yolov8_obb' build argument 'cmake_clean_first' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'yolov8_obb' build argument 'cmake_force_configure' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'yolov8_obb' build argument 'ament_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'yolov8_obb' build argument 'catkin_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'yolov8_obb' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.255s] DEBUG:colcon.colcon_core.verb:Building package 'yolov8_obb' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zxl/project/visual_perception/build/yolov8_obb', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zxl/project/visual_perception/install/yolov8_obb', 'merge_install': False, 'path': '/home/zxl/project/visual_perception/src/obb', 'symlink_install': False, 'test_result_base': None}
+[0.255s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.256s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.256s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zxl/project/visual_perception/src/realsense/realsense2_camera_msgs' with build type 'ament_cmake'
+[0.256s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zxl/project/visual_perception/src/realsense/realsense2_camera_msgs'
+[0.257s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.257s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.257s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.259s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zxl/project/visual_perception/src/msg_det' with build type 'ament_cmake'
+[0.259s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zxl/project/visual_perception/src/msg_det'
+[0.260s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.260s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.265s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zxl/project/visual_perception/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zxl/project/visual_perception/build/realsense2_camera_msgs -- -j32 -l32
+[0.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zxl/project/visual_perception/build/msg_det': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zxl/project/visual_perception/build/msg_det -- -j32 -l32
+[0.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zxl/project/visual_perception/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zxl/project/visual_perception/build/realsense2_camera_msgs -- -j32 -l32
+[0.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zxl/project/visual_perception/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zxl/project/visual_perception/build/realsense2_camera_msgs
+[0.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zxl/project/visual_perception/build/msg_det' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zxl/project/visual_perception/build/msg_det -- -j32 -l32
+[0.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zxl/project/visual_perception/build/msg_det': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zxl/project/visual_perception/build/msg_det
+[0.555s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msg_det)
+[0.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zxl/project/visual_perception/build/msg_det' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zxl/project/visual_perception/build/msg_det
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/msg_det' for CMake module files
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/msg_det' for CMake config files
+[0.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_det', 'cmake_prefix_path')
+[0.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxl/project/visual_perception/install/msg_det/share/msg_det/hook/cmake_prefix_path.ps1'
+[0.561s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zxl/project/visual_perception/install/msg_det/share/msg_det/hook/cmake_prefix_path.dsv'
+[0.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxl/project/visual_perception/install/msg_det/share/msg_det/hook/cmake_prefix_path.sh'
+[0.562s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/msg_det/lib'
+[0.562s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_det', 'ld_library_path_lib')
+[0.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxl/project/visual_perception/install/msg_det/share/msg_det/hook/ld_library_path_lib.ps1'
+[0.562s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zxl/project/visual_perception/install/msg_det/share/msg_det/hook/ld_library_path_lib.dsv'
+[0.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxl/project/visual_perception/install/msg_det/share/msg_det/hook/ld_library_path_lib.sh'
+[0.563s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/msg_det/bin'
+[0.563s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/msg_det/lib/pkgconfig/msg_det.pc'
+[0.563s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/msg_det/lib/python3.10/site-packages'
+[0.563s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/msg_det/bin'
+[0.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/msg_det/share/msg_det/package.ps1'
+[0.564s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zxl/project/visual_perception/install/msg_det/share/msg_det/package.dsv'
+[0.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/msg_det/share/msg_det/package.sh'
+[0.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/msg_det/share/msg_det/package.bash'
+[0.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/msg_det/share/msg_det/package.zsh'
+[0.566s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zxl/project/visual_perception/install/msg_det/share/colcon-core/packages/msg_det)
+[0.566s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msg_det)
+[0.567s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/msg_det' for CMake module files
+[0.567s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/msg_det' for CMake config files
+[0.567s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_det', 'cmake_prefix_path')
+[0.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxl/project/visual_perception/install/msg_det/share/msg_det/hook/cmake_prefix_path.ps1'
+[0.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zxl/project/visual_perception/install/msg_det/share/msg_det/hook/cmake_prefix_path.dsv'
+[0.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxl/project/visual_perception/install/msg_det/share/msg_det/hook/cmake_prefix_path.sh'
+[0.580s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/msg_det/lib'
+[0.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_det', 'ld_library_path_lib')
+[0.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxl/project/visual_perception/install/msg_det/share/msg_det/hook/ld_library_path_lib.ps1'
+[0.580s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zxl/project/visual_perception/install/msg_det/share/msg_det/hook/ld_library_path_lib.dsv'
+[0.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxl/project/visual_perception/install/msg_det/share/msg_det/hook/ld_library_path_lib.sh'
+[0.581s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/msg_det/bin'
+[0.581s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/msg_det/lib/pkgconfig/msg_det.pc'
+[0.581s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/msg_det/lib/python3.10/site-packages'
+[0.581s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/msg_det/bin'
+[0.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/msg_det/share/msg_det/package.ps1'
+[0.582s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zxl/project/visual_perception/install/msg_det/share/msg_det/package.dsv'
+[0.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/msg_det/share/msg_det/package.sh'
+[0.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/msg_det/share/msg_det/package.bash'
+[0.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/msg_det/share/msg_det/package.zsh'
+[0.583s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zxl/project/visual_perception/install/msg_det/share/colcon-core/packages/msg_det)
+[0.583s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zxl/project/visual_perception/src/obb' with build type 'ament_cmake'
+[0.584s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zxl/project/visual_perception/src/obb'
+[0.584s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.584s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.586s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera_msgs)
+[0.587s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_camera_msgs' for CMake module files
+[0.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zxl/project/visual_perception/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zxl/project/visual_perception/build/realsense2_camera_msgs
+[0.587s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_camera_msgs' for CMake config files
+[0.587s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'cmake_prefix_path')
+[0.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.ps1'
+[0.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.dsv'
+[0.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.sh'
+[0.588s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/lib'
+[0.588s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'ld_library_path_lib')
+[0.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.ps1'
+[0.589s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.dsv'
+[0.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.sh'
+[0.589s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/bin'
+[0.589s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/lib/pkgconfig/realsense2_camera_msgs.pc'
+[0.589s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/lib/python3.10/site-packages'
+[0.589s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/bin'
+[0.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.ps1'
+[0.590s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv'
+[0.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.sh'
+[0.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.bash'
+[0.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.zsh'
+[0.591s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zxl/project/visual_perception/install/realsense2_camera_msgs/share/colcon-core/packages/realsense2_camera_msgs)
+[0.591s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera_msgs)
+[0.591s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_camera_msgs' for CMake module files
+[0.591s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_camera_msgs' for CMake config files
+[0.591s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'cmake_prefix_path')
+[0.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.ps1'
+[0.592s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.dsv'
+[0.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.sh'
+[0.678s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/lib'
+[0.678s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'ld_library_path_lib')
+[0.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.ps1'
+[0.678s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.dsv'
+[0.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.sh'
+[0.679s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/bin'
+[0.679s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/lib/pkgconfig/realsense2_camera_msgs.pc'
+[0.679s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/lib/python3.10/site-packages'
+[0.679s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/bin'
+[0.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.ps1'
+[0.680s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv'
+[0.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.sh'
+[0.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.bash'
+[0.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.zsh'
+[0.681s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zxl/project/visual_perception/install/realsense2_camera_msgs/share/colcon-core/packages/realsense2_camera_msgs)
+[0.681s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zxl/project/visual_perception/src/realsense/realsense2_camera' with build type 'ament_cmake'
+[0.681s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zxl/project/visual_perception/src/realsense/realsense2_camera'
+[0.681s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.681s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.683s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zxl/project/visual_perception/src/realsense/realsense2_description' with build type 'ament_cmake'
+[0.684s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zxl/project/visual_perception/src/realsense/realsense2_description'
+[0.684s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.684s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zxl/project/visual_perception/build/yolov8_obb': AMENT_PREFIX_PATH=/home/zxl/project/visual_perception/install/msg_det:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxl/project/visual_perception/install/msg_det:/usr/local/share/OpenCV480:/usr/local/share/OpenCV480:/opt/ros/humble LD_LIBRARY_PATH=/home/zxl/project/visual_perception/install/msg_det/lib:/usr/local/share/OpenCV480/lib:/usr/local/TensorRT-8.6.1.6/lib:/usr/local/cuda-11.8/lib64:/usr/local/share/OpenCV480/lib:/usr/local/TensorRT-8.6.1.6/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 PYTHONPATH=/home/zxl/project/visual_perception/install/msg_det/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zxl/project/visual_perception/build/yolov8_obb -- -j32 -l32
+[0.690s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zxl/project/visual_perception/build/realsense2_camera': AMENT_PREFIX_PATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs:/usr/local/share/OpenCV480:/usr/local/share/OpenCV480:/opt/ros/humble LD_LIBRARY_PATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs/lib:/usr/local/share/OpenCV480/lib:/usr/local/TensorRT-8.6.1.6/lib:/usr/local/cuda-11.8/lib64:/usr/local/share/OpenCV480/lib:/usr/local/TensorRT-8.6.1.6/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 PYTHONPATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zxl/project/visual_perception/build/realsense2_camera -- -j32 -l32
+[0.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zxl/project/visual_perception/build/realsense2_description': AMENT_PREFIX_PATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs:/usr/local/share/OpenCV480:/usr/local/share/OpenCV480:/opt/ros/humble LD_LIBRARY_PATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs/lib:/usr/local/share/OpenCV480/lib:/usr/local/TensorRT-8.6.1.6/lib:/usr/local/cuda-11.8/lib64:/usr/local/share/OpenCV480/lib:/usr/local/TensorRT-8.6.1.6/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 PYTHONPATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zxl/project/visual_perception/build/realsense2_description -- -j32 -l32
+[0.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zxl/project/visual_perception/build/realsense2_description' returned '0': AMENT_PREFIX_PATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs:/usr/local/share/OpenCV480:/usr/local/share/OpenCV480:/opt/ros/humble LD_LIBRARY_PATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs/lib:/usr/local/share/OpenCV480/lib:/usr/local/TensorRT-8.6.1.6/lib:/usr/local/cuda-11.8/lib64:/usr/local/share/OpenCV480/lib:/usr/local/TensorRT-8.6.1.6/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 PYTHONPATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zxl/project/visual_perception/build/realsense2_description -- -j32 -l32
+[0.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zxl/project/visual_perception/build/realsense2_description': AMENT_PREFIX_PATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs:/usr/local/share/OpenCV480:/usr/local/share/OpenCV480:/opt/ros/humble LD_LIBRARY_PATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs/lib:/usr/local/share/OpenCV480/lib:/usr/local/TensorRT-8.6.1.6/lib:/usr/local/cuda-11.8/lib64:/usr/local/share/OpenCV480/lib:/usr/local/TensorRT-8.6.1.6/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 PYTHONPATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zxl/project/visual_perception/build/realsense2_description
+[0.726s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_description)
+[0.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zxl/project/visual_perception/build/realsense2_description' returned '0': AMENT_PREFIX_PATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs:/usr/local/share/OpenCV480:/usr/local/share/OpenCV480:/opt/ros/humble LD_LIBRARY_PATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs/lib:/usr/local/share/OpenCV480/lib:/usr/local/TensorRT-8.6.1.6/lib:/usr/local/cuda-11.8/lib64:/usr/local/share/OpenCV480/lib:/usr/local/TensorRT-8.6.1.6/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 PYTHONPATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zxl/project/visual_perception/build/realsense2_description
+[0.726s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_description' for CMake module files
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_description' for CMake config files
+[0.727s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_description', 'cmake_prefix_path')
+[0.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxl/project/visual_perception/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.ps1'
+[0.727s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zxl/project/visual_perception/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.dsv'
+[0.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxl/project/visual_perception/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.sh'
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_description/bin'
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_description/lib/pkgconfig/realsense2_description.pc'
+[0.729s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_description/lib/python3.10/site-packages'
+[0.729s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_description/bin'
+[0.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/realsense2_description/share/realsense2_description/package.ps1'
+[0.729s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zxl/project/visual_perception/install/realsense2_description/share/realsense2_description/package.dsv'
+[0.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/realsense2_description/share/realsense2_description/package.sh'
+[0.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/realsense2_description/share/realsense2_description/package.bash'
+[0.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/realsense2_description/share/realsense2_description/package.zsh'
+[0.730s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zxl/project/visual_perception/install/realsense2_description/share/colcon-core/packages/realsense2_description)
+[0.731s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_description)
+[0.731s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_description' for CMake module files
+[0.731s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_description' for CMake config files
+[0.732s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_description', 'cmake_prefix_path')
+[0.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxl/project/visual_perception/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.ps1'
+[0.777s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zxl/project/visual_perception/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.dsv'
+[0.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxl/project/visual_perception/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.sh'
+[0.778s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_description/bin'
+[0.778s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_description/lib/pkgconfig/realsense2_description.pc'
+[0.779s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_description/lib/python3.10/site-packages'
+[0.779s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_description/bin'
+[0.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/realsense2_description/share/realsense2_description/package.ps1'
+[0.779s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zxl/project/visual_perception/install/realsense2_description/share/realsense2_description/package.dsv'
+[0.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/realsense2_description/share/realsense2_description/package.sh'
+[0.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/realsense2_description/share/realsense2_description/package.bash'
+[0.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/realsense2_description/share/realsense2_description/package.zsh'
+[0.781s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zxl/project/visual_perception/install/realsense2_description/share/colcon-core/packages/realsense2_description)
+[0.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zxl/project/visual_perception/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs:/usr/local/share/OpenCV480:/usr/local/share/OpenCV480:/opt/ros/humble LD_LIBRARY_PATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs/lib:/usr/local/share/OpenCV480/lib:/usr/local/TensorRT-8.6.1.6/lib:/usr/local/cuda-11.8/lib64:/usr/local/share/OpenCV480/lib:/usr/local/TensorRT-8.6.1.6/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 PYTHONPATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zxl/project/visual_perception/build/realsense2_camera -- -j32 -l32
+[0.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zxl/project/visual_perception/build/realsense2_camera': AMENT_PREFIX_PATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs:/usr/local/share/OpenCV480:/usr/local/share/OpenCV480:/opt/ros/humble LD_LIBRARY_PATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs/lib:/usr/local/share/OpenCV480/lib:/usr/local/TensorRT-8.6.1.6/lib:/usr/local/cuda-11.8/lib64:/usr/local/share/OpenCV480/lib:/usr/local/TensorRT-8.6.1.6/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 PYTHONPATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zxl/project/visual_perception/build/realsense2_camera
+[0.802s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera)
+[0.802s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_camera' for CMake module files
+[0.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zxl/project/visual_perception/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs:/usr/local/share/OpenCV480:/usr/local/share/OpenCV480:/opt/ros/humble LD_LIBRARY_PATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs/lib:/usr/local/share/OpenCV480/lib:/usr/local/TensorRT-8.6.1.6/lib:/usr/local/cuda-11.8/lib64:/usr/local/share/OpenCV480/lib:/usr/local/TensorRT-8.6.1.6/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 PYTHONPATH=/home/zxl/project/visual_perception/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zxl/project/visual_perception/build/realsense2_camera
+[0.803s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_camera' for CMake config files
+[0.803s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'cmake_prefix_path')
+[0.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxl/project/visual_perception/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.ps1'
+[0.804s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zxl/project/visual_perception/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.dsv'
+[0.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxl/project/visual_perception/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.sh'
+[0.804s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_camera/lib'
+[0.804s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'ld_library_path_lib')
+[0.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxl/project/visual_perception/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.ps1'
+[0.805s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zxl/project/visual_perception/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.dsv'
+[0.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxl/project/visual_perception/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.sh'
+[0.805s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_camera/bin'
+[0.805s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_camera/lib/pkgconfig/realsense2_camera.pc'
+[0.806s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_camera/lib/python3.10/site-packages'
+[0.806s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_camera/bin'
+[0.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/realsense2_camera/share/realsense2_camera/package.ps1'
+[0.806s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zxl/project/visual_perception/install/realsense2_camera/share/realsense2_camera/package.dsv'
+[0.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/realsense2_camera/share/realsense2_camera/package.sh'
+[0.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/realsense2_camera/share/realsense2_camera/package.bash'
+[0.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/realsense2_camera/share/realsense2_camera/package.zsh'
+[0.808s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zxl/project/visual_perception/install/realsense2_camera/share/colcon-core/packages/realsense2_camera)
+[0.808s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera)
+[0.808s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_camera' for CMake module files
+[0.809s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_camera' for CMake config files
+[0.809s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'cmake_prefix_path')
+[0.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxl/project/visual_perception/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.ps1'
+[0.809s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zxl/project/visual_perception/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.dsv'
+[0.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxl/project/visual_perception/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.sh'
+[0.810s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_camera/lib'
+[0.810s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'ld_library_path_lib')
+[0.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxl/project/visual_perception/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.ps1'
+[0.810s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zxl/project/visual_perception/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.dsv'
+[0.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxl/project/visual_perception/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.sh'
+[0.811s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_camera/bin'
+[0.811s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_camera/lib/pkgconfig/realsense2_camera.pc'
+[0.811s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_camera/lib/python3.10/site-packages'
+[0.811s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/realsense2_camera/bin'
+[0.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/realsense2_camera/share/realsense2_camera/package.ps1'
+[0.812s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zxl/project/visual_perception/install/realsense2_camera/share/realsense2_camera/package.dsv'
+[0.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/realsense2_camera/share/realsense2_camera/package.sh'
+[0.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/realsense2_camera/share/realsense2_camera/package.bash'
+[0.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/realsense2_camera/share/realsense2_camera/package.zsh'
+[0.813s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zxl/project/visual_perception/install/realsense2_camera/share/colcon-core/packages/realsense2_camera)
+[11.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zxl/project/visual_perception/build/yolov8_obb' returned '2': AMENT_PREFIX_PATH=/home/zxl/project/visual_perception/install/msg_det:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxl/project/visual_perception/install/msg_det:/usr/local/share/OpenCV480:/usr/local/share/OpenCV480:/opt/ros/humble LD_LIBRARY_PATH=/home/zxl/project/visual_perception/install/msg_det/lib:/usr/local/share/OpenCV480/lib:/usr/local/TensorRT-8.6.1.6/lib:/usr/local/cuda-11.8/lib64:/usr/local/share/OpenCV480/lib:/usr/local/TensorRT-8.6.1.6/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 PYTHONPATH=/home/zxl/project/visual_perception/install/msg_det/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zxl/project/visual_perception/build/yolov8_obb -- -j32 -l32
+[11.913s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8_obb)
+[11.914s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/yolov8_obb' for CMake module files
+[11.914s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/yolov8_obb' for CMake config files
+[11.914s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/yolov8_obb/bin'
+[11.914s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/yolov8_obb/lib/pkgconfig/yolov8_obb.pc'
+[11.915s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/yolov8_obb/lib/python3.10/site-packages'
+[11.915s] Level 1:colcon.colcon_core.environment:checking '/home/zxl/project/visual_perception/install/yolov8_obb/bin'
+[11.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/yolov8_obb/share/yolov8_obb/package.ps1'
+[11.915s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zxl/project/visual_perception/install/yolov8_obb/share/yolov8_obb/package.dsv'
+[11.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/yolov8_obb/share/yolov8_obb/package.sh'
+[11.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/yolov8_obb/share/yolov8_obb/package.bash'
+[11.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxl/project/visual_perception/install/yolov8_obb/share/yolov8_obb/package.zsh'
+[11.917s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zxl/project/visual_perception/install/yolov8_obb/share/colcon-core/packages/yolov8_obb)
+[11.927s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.927s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.927s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[11.927s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.932s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.932s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.932s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.945s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.945s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zxl/project/visual_perception/install/local_setup.ps1'
+[11.946s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zxl/project/visual_perception/install/_local_setup_util_ps1.py'
+[11.947s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zxl/project/visual_perception/install/setup.ps1'
+[11.947s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zxl/project/visual_perception/install/local_setup.sh'
+[11.947s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zxl/project/visual_perception/install/_local_setup_util_sh.py'
+[11.948s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zxl/project/visual_perception/install/setup.sh'
+[11.948s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zxl/project/visual_perception/install/local_setup.bash'
+[11.949s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zxl/project/visual_perception/install/setup.bash'
+[11.949s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zxl/project/visual_perception/install/local_setup.zsh'
+[11.949s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zxl/project/visual_perception/install/setup.zsh'

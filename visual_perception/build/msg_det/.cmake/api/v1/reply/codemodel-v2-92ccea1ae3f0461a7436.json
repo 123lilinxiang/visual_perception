@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ac872ac248525e1f4108.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "msg_det__py",
+					"jsonFile" : "directory-msg_det__py-f2dfce4427cc5bdc7fc0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/zxl/project/visual_perception/build/msg_det/msg_det__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "msg_det",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_msg_det_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_msg_det_egg-7c23e95e83c028d98c23.json",
+					"name" : "ament_cmake_python_build_msg_det_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_msg_det::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_msg_det-ca22ff85588f608f19f0.json",
+					"name" : "ament_cmake_python_copy_msg_det",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_det::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_det-b98c2e231b8b0f75e33d.json",
+					"name" : "msg_det",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_det__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_det__cpp-7fa98d5d45d5caedd1e2.json",
+					"name" : "msg_det__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "msg_det__py::@2a9bc0c9083864e32a54",
+					"jsonFile" : "target-msg_det__py-21f20cddbc6affa4f00d.json",
+					"name" : "msg_det__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_det__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_det__rosidl_generator_c-76e68aedce9cf16e4cb8.json",
+					"name" : "msg_det__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_det__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_det__rosidl_generator_py-07667642a385b30a0208.json",
+					"name" : "msg_det__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_det__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_det__rosidl_typesupport_c-af72f9769be4f067d3ae.json",
+					"name" : "msg_det__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_det__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_det__rosidl_typesupport_c__pyext-e309662219d8042c0da5.json",
+					"name" : "msg_det__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_det__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_det__rosidl_typesupport_cpp-feda5f619263c405d317.json",
+					"name" : "msg_det__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_det__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_det__rosidl_typesupport_fastrtps_c-d95d7077108ab1466e82.json",
+					"name" : "msg_det__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_det__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_det__rosidl_typesupport_fastrtps_c__pyext-32c7ee6cb561af942075.json",
+					"name" : "msg_det__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_det__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_det__rosidl_typesupport_fastrtps_cpp-5478c4a159961a26ef0d.json",
+					"name" : "msg_det__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_det__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_det__rosidl_typesupport_introspection_c-9b9f02036fc52f2b74da.json",
+					"name" : "msg_det__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_det__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_det__rosidl_typesupport_introspection_c__pyext-fcc029a7c953be0606ae.json",
+					"name" : "msg_det__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_det__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_det__rosidl_typesupport_introspection_cpp-0c60e86d9a8c799096a6.json",
+					"name" : "msg_det__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_det_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_det_uninstall-f32a53ccc7b450328f11.json",
+					"name" : "msg_det_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5c634f8c53832fdd367e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zxl/project/visual_perception/build/msg_det",
+		"source" : "/home/zxl/project/visual_perception/src/msg_det"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "msg_det__py",
+		"source" : "/home/zxl/project/visual_perception/build/msg_det/msg_det__py"
+	}
+}
