@@ -85,6 +85,13 @@ public:
         yolov8_obb_->make_pipe(true);
         detect_pub = this->create_publisher<msg_det::msg::DetectRes>("/robot/pps/detect_res",10);
         
+        const YAML::Node detector = getRequiredYamlNode(config, "detector");
+        const YAML::Node obb_predictor = getRequiredYamlNode(detector, "obb_predictor");
+
+        offset0 = readVec3FromYaml(obb_predictor, "offset0");
+        offset1 = readVec3FromYaml(obb_predictor, "offset1");
+        offset2 = readVec3FromYaml(obb_predictor, "offset2");
+
         const YAML::Node coord_trans = getRequiredYamlNode(config, "coord_trans");
         const Eigen::Vector3d head_joint_yaw_offset =readVec3FromYaml(coord_trans, "head_joint_yaw_offset");
         const Eigen::Vector3d head_joint_pitch_offset =readVec3FromYaml(coord_trans, "head_joint_pitch_offset");
@@ -327,12 +334,14 @@ private:
 
             // 发布 ROS2 topic
             msg_det::msg::DetectRes msg;
-
             msg.type = static_cast<int16_t>(result_array[i][0]);
+
+            Eigen::Vector3d publish_point = point_robot + getOffsetByType(msg.type);
+
             msg.pos = {
-                static_cast<double>(point_robot.x()),
-                static_cast<double>(point_robot.y()),
-                static_cast<double>(point_robot.z())
+                static_cast<double>(publish_point.x()),
+                static_cast<double>(publish_point.y()),
+                static_cast<double>(publish_point.z())
             };
 
             detect_pub->publish(msg);
@@ -391,6 +400,23 @@ private:
         return oss.str();
     }
 
+    Eigen::Vector3d getOffsetByType(int type)
+    {
+        switch (type) {
+            case 0:
+                return offset0;
+
+            case 1:
+                return offset1;
+
+            case 2:
+                return offset2;
+
+            default:
+                return Eigen::Vector3d::Zero();
+        }
+    }
+
 private:
     std::unique_ptr<YOLOv8_obb> yolov8_obb_;
 
@@ -409,6 +435,9 @@ private:
     bool show_image_;
 
     std::unique_ptr<CamBaseTransformer> transformer_;
+    Eigen::Vector3d offset0 = Eigen::Vector3d::Zero();
+    Eigen::Vector3d offset1 = Eigen::Vector3d::Zero();
+    Eigen::Vector3d offset2 = Eigen::Vector3d::Zero();
     // 相机内参，建议后面从 camera_info 读取
     double fx_ = 605.7542114257812;
     double fy_ = 605.45703125;
@@ -437,8 +466,7 @@ int main(int argc, char** argv)
             );
         }
 
-        const std::string engine_path =
-            config["detector"]["obb_predictor"]["engine_path"].as<std::string>();
+        const std::string engine_path =config["detector"]["obb_predictor"]["engine_path"].as<std::string>();
 
         auto node = std::make_shared<YoloObbDepthNode>(engine_path, config);
 

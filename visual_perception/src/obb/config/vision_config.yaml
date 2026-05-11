@@ -6,7 +6,9 @@ detector:
     #这里是模型类型的索引
     engine_path: "/home/zxl/project/visual_perception/models/best.engine"
     class: [-1,0, 1]
-    offset: []
+    offset0: [0,0,0]
+    offset1: [0,0,0]
+    offset2: [0,0,0]
 
 coord_trans:
   head_joint_yaw_offset: [0.0005, 0.0, 0.59957]
