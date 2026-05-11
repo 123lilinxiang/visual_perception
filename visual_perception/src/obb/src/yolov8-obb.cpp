@@ -271,6 +271,46 @@ void YOLOv8_obb::postprocess(std::vector<Object>& objs, float score_thres, float
     }
 }
 
+
+static float calcObbAngleRadByTopEdge(const cv::Point2f pts[4])
+{
+    int top_edge_index = 0;
+    float min_mid_y = std::numeric_limits<float>::max();
+
+    // 找四条边里，中点 y 最小的边
+    for (int i = 0; i < 4; ++i) {
+        const cv::Point2f& p1 = pts[i];
+        const cv::Point2f& p2 = pts[(i + 1) % 4];
+
+        float mid_y = (p1.y + p2.y) * 0.5f;
+
+        if (mid_y < min_mid_y) {
+            min_mid_y = mid_y;
+            top_edge_index = i;
+        }
+    }
+
+    cv::Point2f p1 = pts[top_edge_index];
+    cv::Point2f p2 = pts[(top_edge_index + 1) % 4];
+
+    // 为了避免同一条边方向反过来导致角度差 pi，
+    // 统一从左点指向右点
+    cv::Point2f left_pt = p1;
+    cv::Point2f right_pt = p2;
+
+    if (left_pt.x > right_pt.x) {
+        std::swap(left_pt, right_pt);
+    }
+
+    float angle_rad = std::atan2(
+        right_pt.y - left_pt.y,
+        right_pt.x - left_pt.x
+    );
+
+    return angle_rad;
+}
+
+
 void YOLOv8_obb::draw_objects(const cv::Mat& image,
                               cv::Mat& res,
                               const std::vector<Object>& objs,
@@ -302,11 +342,18 @@ void YOLOv8_obb::draw_objects(const cv::Mat& image,
         int y = static_cast<int>(obj.rect.center.y);
 
         current_centers.push_back(cv::Point(x, y));
+        cv::Point2f box_points[4];
+        // cv::boxPoints(obj.rect, box_points);
+        obj.rect.points(box_points);
+        //以最上面的边为基准
+        float angle_rad = calcObbAngleRadByTopEdge(box_points);
+
 
         result_array.push_back({
             static_cast<float>(obj.label),
             static_cast<float>(x),
-            static_cast<float>(y)
+            static_cast<float>(y),
+            angle_rad
         });
 
         char text[256];

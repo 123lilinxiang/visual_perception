@@ -64,6 +64,23 @@ namespace
             value[2].as<double>()
         );
     }
+
+    Eigen::Vector4d readVec4FromYaml(const YAML::Node& node, const std::string& key)
+    {
+        YAML::Node value = getRequiredYamlNode(node, key);
+
+        if (!value.IsSequence() || value.size() != 4) {
+            throw std::runtime_error("YAML key `" + key + "` must be a 3-element array.");
+        }
+
+        return Eigen::Vector4d(
+            value[0].as<double>(),
+            value[1].as<double>(),
+            value[2].as<double>(),
+            value[3].as<double>()
+        );
+    }
+
 }
 
 
@@ -83,14 +100,15 @@ public:
 
         yolov8_obb_ = std::make_unique<YOLOv8_obb>(engine_path);
         yolov8_obb_->make_pipe(true);
-        detect_pub = this->create_publisher<msg_det::msg::DetectRes>("/robot/pps/detect_res",10);
+        detect_pub = this->create_publisher<msg_det::msg::DetectRes>("/detect_res",10);
+        put_pub = this->create_publisher<msg_det::msg::DetectRes>("/detect_res",10);
         
         const YAML::Node detector = getRequiredYamlNode(config, "detector");
         const YAML::Node obb_predictor = getRequiredYamlNode(detector, "obb_predictor");
 
-        offset0 = readVec3FromYaml(obb_predictor, "offset0");
-        offset1 = readVec3FromYaml(obb_predictor, "offset1");
-        offset2 = readVec3FromYaml(obb_predictor, "offset2");
+        offset0 = readVec4FromYaml(obb_predictor, "offset0");
+        offset1 = readVec4FromYaml(obb_predictor, "offset1");
+        offset2 = readVec4FromYaml(obb_predictor, "offset2");
 
         const YAML::Node coord_trans = getRequiredYamlNode(config, "coord_trans");
         const Eigen::Vector3d head_joint_yaw_offset =readVec3FromYaml(coord_trans, "head_joint_yaw_offset");
@@ -210,9 +228,9 @@ private:
         return Eigen::Vector3d(X, Y, Z);
     }
 
-    void imageCallback(const ImageMsg::ConstSharedPtr& color_msg,
-                       const ImageMsg::ConstSharedPtr& depth_msg)
+    void imageCallback(const ImageMsg::ConstSharedPtr& color_msg,const ImageMsg::ConstSharedPtr& depth_msg)
     {
+        
         result_array.clear();
         cv_bridge::CvImageConstPtr color_ptr;
         cv_bridge::CvImageConstPtr depth_ptr;
@@ -265,10 +283,14 @@ private:
         );
 
         // 根据中心点从深度图取深度
+        // 根据中心点从深度图取深度
         for (size_t i = 0; i < result_array.size(); ++i) 
         {
             int cx_color = static_cast<int>(result_array[i][1]);
             int cy_color = static_cast<int>(result_array[i][2]);
+
+            // 新增：角度，单位弧度
+            float angle_rad = result_array[i][3];
 
             // 如果 color 和 depth 分辨率不同，做比例缩放
             int cx_depth = static_cast<int>(
@@ -280,7 +302,8 @@ private:
 
             float depth_m = getDepthValueMeters(depth, cx_depth, cy_depth, 2);
 
-            // 追加 depth，变成 [class, cx, cy, depth_m]
+            // 追加 depth，变成：
+            // [class, cx, cy, angle_rad, depth_m]
             result_array[i].push_back(depth_m);
 
             if (depth_m <= 0.0f) {
@@ -288,6 +311,7 @@ private:
                         << result_array[i][0] << ", "
                         << result_array[i][1] << ", "
                         << result_array[i][2] << ", "
+                        << "angle=" << angle_rad << ", "
                         << "invalid_depth"
                         << "]";
 
@@ -302,9 +326,6 @@ private:
             double u = result_array[i][1];
             double v = result_array[i][2];
 
-            // 如果你使用的是 aligned_depth_to_color，且 color/depth 分辨率一致，直接用 u/v。
-            // 如果不一致，可以用缩放后的 cx_depth/cy_depth。
-            // 这里推荐用 D2C 后的图像，且 color/depth 都是 640x480。   
             Eigen::Vector3d point_camera = pixelToCameraPoint(
                 u,
                 v,
@@ -315,8 +336,6 @@ private:
                 cy0_
             );
 
-            // 如果当前头不转，先写 0。
-            // 后面如果要接机器人头部角度，就把真实 yaw/pitch 填进来。
             double head_yaw = 0.0;
             double head_pitch = 0.0;
 
@@ -327,7 +346,7 @@ private:
             );
 
             // 追加机器人坐标，变成：
-            // [class, cx, cy, depth_m, robot_x, robot_y, robot_z]
+            // [class, cx, cy, angle_rad, depth_m, robot_x, robot_y, robot_z]
             result_array[i].push_back(static_cast<float>(point_robot.x()));
             result_array[i].push_back(static_cast<float>(point_robot.y()));
             result_array[i].push_back(static_cast<float>(point_robot.z()));
@@ -336,12 +355,18 @@ private:
             msg_det::msg::DetectRes msg;
             msg.type = static_cast<int16_t>(result_array[i][0]);
 
-            Eigen::Vector3d publish_point = point_robot + getOffsetByType(msg.type);
+            // offset 现在是 4 个值：[x_offset, y_offset, z_offset, angle_offset]
+            Eigen::Vector4d offset = getOffsetByType(msg.type);
+
+            Eigen::Vector3d publish_point = point_robot + offset.head<3>();
+
+            double publish_angle_rad = static_cast<double>(angle_rad) + offset[3];
 
             msg.pos = {
                 static_cast<double>(publish_point.x()),
                 static_cast<double>(publish_point.y()),
-                static_cast<double>(publish_point.z())
+                static_cast<double>(publish_point.z()),
+                publish_angle_rad
             };
 
             detect_pub->publish(msg);
@@ -350,12 +375,13 @@ private:
 
             RCLCPP_INFO(
                 this->get_logger(),
-                "[%s] Published detect result: type=%d, pos=[%.3f, %.3f, %.3f], depth=%.3f",
+                "[%s] Published detect result: type=%d, pos=[%.3f, %.3f, %.3f, %.3f], depth=%.3f",
                 timestamp.c_str(),
                 msg.type,
                 msg.pos[0],
                 msg.pos[1],
                 msg.pos[2],
+                msg.pos[3],
                 depth_m
             );
 
@@ -363,10 +389,12 @@ private:
                     << "class=" << result_array[i][0] << ", "
                     << "cx=" << result_array[i][1] << ", "
                     << "cy=" << result_array[i][2] << ", "
-                    << "depth=" << result_array[i][3] << "m, "
-                    << "robot_x=" << result_array[i][4] << ", "
-                    << "robot_y=" << result_array[i][5] << ", "
-                    << "robot_z=" << result_array[i][6]
+                    << "angle_rad=" << result_array[i][3] << ", "
+                    << "depth=" << result_array[i][4] << "m, "
+                    << "robot_x=" << result_array[i][5] << ", "
+                    << "robot_y=" << result_array[i][6] << ", "
+                    << "robot_z=" << result_array[i][7] << ", "
+                    << "publish_angle_rad=" << publish_angle_rad
                     << "]";
 
             if (i != result_array.size() - 1) {
@@ -400,7 +428,7 @@ private:
         return oss.str();
     }
 
-    Eigen::Vector3d getOffsetByType(int type)
+    Eigen::Vector4d getOffsetByType(int type)
     {
         switch (type) {
             case 0:
@@ -413,7 +441,7 @@ private:
                 return offset2;
 
             default:
-                return Eigen::Vector3d::Zero();
+                return Eigen::Vector4d::Zero();
         }
     }
 
@@ -435,9 +463,9 @@ private:
     bool show_image_;
 
     std::unique_ptr<CamBaseTransformer> transformer_;
-    Eigen::Vector3d offset0 = Eigen::Vector3d::Zero();
-    Eigen::Vector3d offset1 = Eigen::Vector3d::Zero();
-    Eigen::Vector3d offset2 = Eigen::Vector3d::Zero();
+    Eigen::Vector4d offset0 = Eigen::Vector4d::Zero();
+    Eigen::Vector4d offset1 = Eigen::Vector4d::Zero();
+    Eigen::Vector4d offset2 = Eigen::Vector4d::Zero();
     // 相机内参，建议后面从 camera_info 读取
     double fx_ = 605.7542114257812;
     double fy_ = 605.45703125;
@@ -452,10 +480,7 @@ int main(int argc, char** argv)
     rclcpp::init(argc, argv);
 
     try {
-        const std::string config_path =
-            ament_index_cpp::get_package_share_directory("yolov8_obb") +
-            "/config/vision_config.yaml";
-
+        const std::string config_path =ament_index_cpp::get_package_share_directory("yolov8_obb") +"/config/vision_config.yaml";
         const YAML::Node config = YAML::LoadFile(config_path);
 
         if (!config["detector"] ||
@@ -467,9 +492,7 @@ int main(int argc, char** argv)
         }
 
         const std::string engine_path =config["detector"]["obb_predictor"]["engine_path"].as<std::string>();
-
         auto node = std::make_shared<YoloObbDepthNode>(engine_path, config);
-
         rclcpp::spin(node);
     }
     catch (const std::exception& e) {
