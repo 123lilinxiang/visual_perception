@@ -1,0 +1,9 @@
+[I|2026-06-08 17:24:13.698 37850] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-08 17:24:13.698 37850] uid: 1edf356b-d4b1 | Connect to 192.168.71.160 from 192.168.71.51
+[I|2026-06-08 17:24:13.786 37850] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-08 17:24:13.787 37850] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-08 17:24:13.830 37850] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-08 17:24:21.152 37850] uid: 1edf356b-d4b1 | Process posture trans:[0.19693012106810476, -0.26550261923130203, -0.3377294540880401], rpy:[-3.1415857125000013, 2.012636133865221e-06, 1.5707975618136976] , s:20, z:5, js:-1
+[I|2026-06-08 17:24:21.152 37850] uid: 1edf356b-d4b1 | Append cmd l#0
+[I|2026-06-08 17:24:21.203 37850] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-08 17:25:04.898 37874] uid: 1edf356b-d4b1 | Notified l#0 [0] finish:true (0)

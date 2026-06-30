@@ -1,0 +1,276 @@
+[0.000000] (-) TimerEvent: {}
+[0.000844] (rokae_ros_control) JobQueued: {'identifier': 'rokae_ros_control', 'dependencies': OrderedDict()}
+[0.001068] (rokae_ros_control) JobStarted: {'identifier': 'rokae_ros_control'}
+[0.012437] (rokae_ros_control) JobProgress: {'identifier': 'rokae_ros_control', 'progress': 'cmake'}
+[0.013269] (rokae_ros_control) Command: {'cmd': ['/usr/bin/cmake', '/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5', '-DCMAKE_INSTALL_PREFIX=/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control'], 'cwd': '/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/build/rokae_ros_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'admin'), ('SSH_CLIENT', '192.168.3.7 61524 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/admin/.vscode-server/cli/servers/Stable-6a44c352bd24569c417e530095901b649960f9f8/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('BROWSER', '/home/admin/.vscode-server/cli/servers/Stable-6a44c352bd24569c417e530095901b649960f9f8/server/bin/helpers/browser.sh'), ('LESS', '-R'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/admin'), ('OLDPWD', '/home/admin/vsproject'), ('TERM_PROGRAM_VERSION', '1.123.0'), ('NVM_BIN', '/home/admin/.nvm/versions/node/v24.15.0/bin'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-481424ea-fba2-4aaf-81e5-fb2905e43267.sock'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('NVM_INC', '/home/admin/.nvm/versions/node/v24.15.0/include/node'), ('ZSH', '/home/admin/.oh-my-zsh'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'less'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/admin/.vscode-server/cli/servers/Stable-6a44c352bd24569c417e530095901b649960f9f8/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/admin/.vscode-server/cli/servers/Stable-6a44c352bd24569c417e530095901b649960f9f8/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/admin/.nvm'), ('COLCON_PREFIX_PATH', '/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'admin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/home/admin'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda/bin:/home/admin/.vscode-server/cli/servers/Stable-6a44c352bd24569c417e530095901b649960f9f8/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/cuda/bin:/home/admin/.nvm/versions/node/v24.15.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_INJECTION', '1'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6548294479.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/build/rokae_ros_control'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.3.7 61524 192.168.3.10 22'), ('ZDOTDIR', '/home/admin'), ('NVM_CD_FLAGS', '-q'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099659] (rokae_ros_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.100125] (-) TimerEvent: {}
+[0.195626] (rokae_ros_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.200248] (-) TimerEvent: {}
+[0.212917] (rokae_ros_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300476] (-) TimerEvent: {}
+[0.340399] (rokae_ros_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.354293] (rokae_ros_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.354775] (rokae_ros_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.355488] (rokae_ros_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.361266] (rokae_ros_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400638] (-) TimerEvent: {}
+[0.493676] (rokae_ros_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.500724] (-) TimerEvent: {}
+[0.519195] (rokae_ros_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.520175] (rokae_ros_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.521730] (rokae_ros_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.530759] (rokae_ros_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600901] (-) TimerEvent: {}
+[0.701482] (-) TimerEvent: {}
+[0.802083] (-) TimerEvent: {}
+[0.815051] (rokae_ros_control) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.902238] (-) TimerEvent: {}
+[1.002817] (-) TimerEvent: {}
+[1.010997] (rokae_ros_control) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.094028] (rokae_ros_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.100669] (rokae_ros_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.102848] (-) TimerEvent: {}
+[1.112430] (rokae_ros_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.129057] (rokae_ros_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.151075] (rokae_ros_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.202967] (-) TimerEvent: {}
+[1.210540] (rokae_ros_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.213968] (rokae_ros_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.303159] (-) TimerEvent: {}
+[1.329574] (rokae_ros_control) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.378399] (rokae_ros_control) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.403271] (-) TimerEvent: {}
+[1.442240] (rokae_ros_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.454307] (rokae_ros_control) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.503455] (-) TimerEvent: {}
+[1.569645] (rokae_ros_control) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.570651] (rokae_ros_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.603624] (-) TimerEvent: {}
+[1.701349] (rokae_ros_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.703725] (-) TimerEvent: {}
+[1.705229] (rokae_ros_control) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.803887] (-) TimerEvent: {}
+[1.904397] (-) TimerEvent: {}
+[1.943835] (rokae_ros_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.973275] (rokae_ros_control) StdoutLine: {'line': b'-- Generating done\n'}
+[1.985820] (rokae_ros_control) StdoutLine: {'line': b'-- Build files have been written to: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/build/rokae_ros_control\n'}
+[2.004517] (-) TimerEvent: {}
+[2.012109] (rokae_ros_control) CommandEnded: {'returncode': 0}
+[2.013817] (rokae_ros_control) JobProgress: {'identifier': 'rokae_ros_control', 'progress': 'build'}
+[2.016097] (rokae_ros_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/build/rokae_ros_control', '--', '-j6', '-l6'], 'cwd': '/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/build/rokae_ros_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'admin'), ('SSH_CLIENT', '192.168.3.7 61524 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/admin/.vscode-server/cli/servers/Stable-6a44c352bd24569c417e530095901b649960f9f8/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('BROWSER', '/home/admin/.vscode-server/cli/servers/Stable-6a44c352bd24569c417e530095901b649960f9f8/server/bin/helpers/browser.sh'), ('LESS', '-R'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/admin'), ('OLDPWD', '/home/admin/vsproject'), ('TERM_PROGRAM_VERSION', '1.123.0'), ('NVM_BIN', '/home/admin/.nvm/versions/node/v24.15.0/bin'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-481424ea-fba2-4aaf-81e5-fb2905e43267.sock'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('NVM_INC', '/home/admin/.nvm/versions/node/v24.15.0/include/node'), ('ZSH', '/home/admin/.oh-my-zsh'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'less'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/admin/.vscode-server/cli/servers/Stable-6a44c352bd24569c417e530095901b649960f9f8/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/admin/.vscode-server/cli/servers/Stable-6a44c352bd24569c417e530095901b649960f9f8/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/admin/.nvm'), ('COLCON_PREFIX_PATH', '/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'admin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/home/admin'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda/bin:/home/admin/.vscode-server/cli/servers/Stable-6a44c352bd24569c417e530095901b649960f9f8/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/cuda/bin:/home/admin/.nvm/versions/node/v24.15.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_INJECTION', '1'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6548294479.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/build/rokae_ros_control'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.3.7 61524 192.168.3.10 22'), ('ZDOTDIR', '/home/admin'), ('NVM_CD_FLAGS', '-q'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.093266] (rokae_ros_control) StderrLine: {'line': b"gmake[2]: *** No rule to make target '../../lib/Linux/aarch64/libxCoreSDK.so.0.5.1', needed by 'rokae_movel_ros_node'.  Stop.\n"}
+[2.093789] (rokae_ros_control) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[2.104642] (-) TimerEvent: {}
+[2.105869] (rokae_ros_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rokae_movel_ros_node.dir/src/example/ae_movel_ros_node.cpp.o\x1b[0m\n'}
+[2.204866] (-) TimerEvent: {}
+[2.305646] (-) TimerEvent: {}
+[2.406341] (-) TimerEvent: {}
+[2.506972] (-) TimerEvent: {}
+[2.607793] (-) TimerEvent: {}
+[2.708427] (-) TimerEvent: {}
+[2.809042] (-) TimerEvent: {}
+[2.909622] (-) TimerEvent: {}
+[3.010223] (-) TimerEvent: {}
+[3.110910] (-) TimerEvent: {}
+[3.211579] (-) TimerEvent: {}
+[3.312176] (-) TimerEvent: {}
+[3.412875] (-) TimerEvent: {}
+[3.513536] (-) TimerEvent: {}
+[3.614158] (-) TimerEvent: {}
+[3.714803] (-) TimerEvent: {}
+[3.815427] (-) TimerEvent: {}
+[3.916040] (-) TimerEvent: {}
+[4.016590] (-) TimerEvent: {}
+[4.117166] (-) TimerEvent: {}
+[4.217815] (-) TimerEvent: {}
+[4.318529] (-) TimerEvent: {}
+[4.419251] (-) TimerEvent: {}
+[4.519887] (-) TimerEvent: {}
+[4.620452] (-) TimerEvent: {}
+[4.721055] (-) TimerEvent: {}
+[4.821674] (-) TimerEvent: {}
+[4.922287] (-) TimerEvent: {}
+[5.022863] (-) TimerEvent: {}
+[5.123468] (-) TimerEvent: {}
+[5.224123] (-) TimerEvent: {}
+[5.324713] (-) TimerEvent: {}
+[5.425343] (-) TimerEvent: {}
+[5.525915] (-) TimerEvent: {}
+[5.626526] (-) TimerEvent: {}
+[5.727110] (-) TimerEvent: {}
+[5.827690] (-) TimerEvent: {}
+[5.928293] (-) TimerEvent: {}
+[6.028933] (-) TimerEvent: {}
+[6.129562] (-) TimerEvent: {}
+[6.230213] (-) TimerEvent: {}
+[6.330816] (-) TimerEvent: {}
+[6.431394] (-) TimerEvent: {}
+[6.531996] (-) TimerEvent: {}
+[6.632628] (-) TimerEvent: {}
+[6.733259] (-) TimerEvent: {}
+[6.833923] (-) TimerEvent: {}
+[6.916403] (rokae_ros_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:214\x1b[m\x1b[K,\n'}
+[6.916974] (rokae_ros_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/include/rokae/planner.h:16\x1b[m\x1b[K,\n'}
+[6.917245] (rokae_ros_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/include/rokae/robot.h:21\x1b[m\x1b[K,\n'}
+[6.917478] (rokae_ros_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/src/example/ae_movel_ros_node.cpp:10\x1b[m\x1b[K:\n'}
+[6.917698] (rokae_ros_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.917934] (rokae_ros_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid* memcpy(void*, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99 copying an object of non-trivial type \xe2\x80\x98\x1b[01m\x1b[KEigen::internal::Packet4c\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>\x1b[m\x1b[K\xe2\x80\x99} from an array of \xe2\x80\x98\x1b[01m\x1b[Kconst int8_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst signed char\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess\x07-Wclass-memaccess\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.918246] (rokae_ros_control) StderrLine: {'line': b' 1671 |   \x1b[01;35m\x1b[Kmemcpy(&res, from, sizeof(Packet4c))\x1b[m\x1b[K;\n'}
+[6.918489] (rokae_ros_control) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.918936] (rokae_ros_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:172\x1b[m\x1b[K,\n'}
+[6.919171] (rokae_ros_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/include/rokae/planner.h:16\x1b[m\x1b[K,\n'}
+[6.919379] (rokae_ros_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/include/rokae/robot.h:21\x1b[m\x1b[K,\n'}
+[6.919581] (rokae_ros_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/src/example/ae_movel_ros_node.cpp:10\x1b[m\x1b[K:\n'}
+[6.919782] (rokae_ros_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::internal::Packet4c\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>\x1b[m\x1b[K\xe2\x80\x99} declared here\n'}
+[6.920027] (rokae_ros_control) StderrLine: {'line': b'  159 | struct \x1b[01;36m\x1b[Keigen_packet_wrapper\x1b[m\x1b[K\n'}
+[6.920230] (rokae_ros_control) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.920428] (rokae_ros_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:214\x1b[m\x1b[K,\n'}
+[6.920626] (rokae_ros_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/include/rokae/planner.h:16\x1b[m\x1b[K,\n'}
+[6.920856] (rokae_ros_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/include/rokae/robot.h:21\x1b[m\x1b[K,\n'}
+[6.921056] (rokae_ros_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/src/example/ae_movel_ros_node.cpp:10\x1b[m\x1b[K:\n'}
+[6.921255] (rokae_ros_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.921468] (rokae_ros_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid* memcpy(void*, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99 copying an object of non-trivial type \xe2\x80\x98\x1b[01m\x1b[KEigen::internal::Packet4c\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>\x1b[m\x1b[K\xe2\x80\x99} from an array of \xe2\x80\x98\x1b[01m\x1b[Kconst int8_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst signed char\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess\x07-Wclass-memaccess\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.921686] (rokae_ros_control) StderrLine: {'line': b' 1716 |   \x1b[01;35m\x1b[Kmemcpy(&res, from, sizeof(Packet4c))\x1b[m\x1b[K;\n'}
+[6.921885] (rokae_ros_control) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.922082] (rokae_ros_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:172\x1b[m\x1b[K,\n'}
+[6.922328] (rokae_ros_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/include/rokae/planner.h:16\x1b[m\x1b[K,\n'}
+[6.922537] (rokae_ros_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/include/rokae/robot.h:21\x1b[m\x1b[K,\n'}
+[6.922737] (rokae_ros_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/src/example/ae_movel_ros_node.cpp:10\x1b[m\x1b[K:\n'}
+[6.922964] (rokae_ros_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::internal::Packet4c\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>\x1b[m\x1b[K\xe2\x80\x99} declared here\n'}
+[6.923176] (rokae_ros_control) StderrLine: {'line': b'  159 | struct \x1b[01;36m\x1b[Keigen_packet_wrapper\x1b[m\x1b[K\n'}
+[6.923374] (rokae_ros_control) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.934013] (-) TimerEvent: {}
+[7.034548] (-) TimerEvent: {}
+[7.135131] (-) TimerEvent: {}
+[7.235731] (-) TimerEvent: {}
+[7.336358] (-) TimerEvent: {}
+[7.436915] (-) TimerEvent: {}
+[7.537441] (-) TimerEvent: {}
+[7.637973] (-) TimerEvent: {}
+[7.738521] (-) TimerEvent: {}
+[7.839095] (-) TimerEvent: {}
+[7.939730] (-) TimerEvent: {}
+[8.040297] (-) TimerEvent: {}
+[8.140910] (-) TimerEvent: {}
+[8.241539] (-) TimerEvent: {}
+[8.342162] (-) TimerEvent: {}
+[8.442816] (-) TimerEvent: {}
+[8.543451] (-) TimerEvent: {}
+[8.644084] (-) TimerEvent: {}
+[8.744709] (-) TimerEvent: {}
+[8.845355] (-) TimerEvent: {}
+[8.945985] (-) TimerEvent: {}
+[9.046642] (-) TimerEvent: {}
+[9.147272] (-) TimerEvent: {}
+[9.247903] (-) TimerEvent: {}
+[9.348557] (-) TimerEvent: {}
+[9.449206] (-) TimerEvent: {}
+[9.549880] (-) TimerEvent: {}
+[9.650530] (-) TimerEvent: {}
+[9.751142] (-) TimerEvent: {}
+[9.851756] (-) TimerEvent: {}
+[9.952388] (-) TimerEvent: {}
+[10.053015] (-) TimerEvent: {}
+[10.153637] (-) TimerEvent: {}
+[10.254291] (-) TimerEvent: {}
+[10.354944] (-) TimerEvent: {}
+[10.455591] (-) TimerEvent: {}
+[10.556249] (-) TimerEvent: {}
+[10.656887] (-) TimerEvent: {}
+[10.757530] (-) TimerEvent: {}
+[10.858213] (-) TimerEvent: {}
+[10.958833] (-) TimerEvent: {}
+[11.059459] (-) TimerEvent: {}
+[11.160102] (-) TimerEvent: {}
+[11.260728] (-) TimerEvent: {}
+[11.361353] (-) TimerEvent: {}
+[11.462015] (-) TimerEvent: {}
+[11.562705] (-) TimerEvent: {}
+[11.663324] (-) TimerEvent: {}
+[11.764007] (-) TimerEvent: {}
+[11.864674] (-) TimerEvent: {}
+[11.965313] (-) TimerEvent: {}
+[12.065973] (-) TimerEvent: {}
+[12.166644] (-) TimerEvent: {}
+[12.267265] (-) TimerEvent: {}
+[12.367898] (-) TimerEvent: {}
+[12.468528] (-) TimerEvent: {}
+[12.569155] (-) TimerEvent: {}
+[12.669812] (-) TimerEvent: {}
+[12.770468] (-) TimerEvent: {}
+[12.871092] (-) TimerEvent: {}
+[12.971699] (-) TimerEvent: {}
+[13.072322] (-) TimerEvent: {}
+[13.172973] (-) TimerEvent: {}
+[13.273625] (-) TimerEvent: {}
+[13.374400] (-) TimerEvent: {}
+[13.475011] (-) TimerEvent: {}
+[13.575649] (-) TimerEvent: {}
+[13.676282] (-) TimerEvent: {}
+[13.776912] (-) TimerEvent: {}
+[13.877556] (-) TimerEvent: {}
+[13.978241] (-) TimerEvent: {}
+[14.078847] (-) TimerEvent: {}
+[14.179477] (-) TimerEvent: {}
+[14.280115] (-) TimerEvent: {}
+[14.380755] (-) TimerEvent: {}
+[14.481383] (-) TimerEvent: {}
+[14.582048] (-) TimerEvent: {}
+[14.682725] (-) TimerEvent: {}
+[14.783350] (-) TimerEvent: {}
+[14.883991] (-) TimerEvent: {}
+[14.984607] (-) TimerEvent: {}
+[15.085215] (-) TimerEvent: {}
+[15.185818] (-) TimerEvent: {}
+[15.286449] (-) TimerEvent: {}
+[15.387066] (-) TimerEvent: {}
+[15.487686] (-) TimerEvent: {}
+[15.588540] (-) TimerEvent: {}
+[15.689164] (-) TimerEvent: {}
+[15.789729] (-) TimerEvent: {}
+[15.890289] (-) TimerEvent: {}
+[15.990919] (-) TimerEvent: {}
+[16.091513] (-) TimerEvent: {}
+[16.192050] (-) TimerEvent: {}
+[16.292634] (-) TimerEvent: {}
+[16.393239] (-) TimerEvent: {}
+[16.494104] (-) TimerEvent: {}
+[16.594960] (-) TimerEvent: {}
+[16.695802] (-) TimerEvent: {}
+[16.796639] (-) TimerEvent: {}
+[16.897249] (-) TimerEvent: {}
+[16.997847] (-) TimerEvent: {}
+[17.098500] (-) TimerEvent: {}
+[17.199294] (-) TimerEvent: {}
+[17.300149] (-) TimerEvent: {}
+[17.400767] (-) TimerEvent: {}
+[17.501379] (-) TimerEvent: {}
+[17.601952] (-) TimerEvent: {}
+[17.702477] (-) TimerEvent: {}
+[17.803097] (-) TimerEvent: {}
+[17.903719] (-) TimerEvent: {}
+[18.004310] (-) TimerEvent: {}
+[18.104904] (-) TimerEvent: {}
+[18.205520] (-) TimerEvent: {}
+[18.306129] (-) TimerEvent: {}
+[18.406748] (-) TimerEvent: {}
+[18.507586] (-) TimerEvent: {}
+[18.608201] (-) TimerEvent: {}
+[18.709046] (-) TimerEvent: {}
+[18.809873] (-) TimerEvent: {}
+[18.910737] (-) TimerEvent: {}
+[19.011438] (-) TimerEvent: {}
+[19.111937] (-) TimerEvent: {}
+[19.212448] (-) TimerEvent: {}
+[19.313239] (-) TimerEvent: {}
+[19.414130] (-) TimerEvent: {}
+[19.514681] (-) TimerEvent: {}
+[19.615185] (-) TimerEvent: {}
+[19.715674] (-) TimerEvent: {}
+[19.783412] (rokae_ros_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rokae_movel_ros_node.dir/all] Error 2\n'}
+[19.783992] (rokae_ros_control) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[19.788790] (rokae_ros_control) CommandEnded: {'returncode': 2}
+[19.817656] (-) TimerEvent: {}
+[19.822229] (rokae_ros_control) JobEnded: {'identifier': 'rokae_ros_control', 'rc': 2}
+[19.833611] (-) EventReactorShutdown: {}

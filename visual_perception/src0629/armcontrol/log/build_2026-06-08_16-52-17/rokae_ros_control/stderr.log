@@ -1,0 +1,6 @@
+[31mCMake Error at CMakeLists.txt:32 (message):
+  Cannot find libxCoreSDK.so.0.5.1 at
+  /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/lib/Linux/aarch64
+
+[0m
+gmake: *** [Makefile:267: cmake_check_build_system] Error 1

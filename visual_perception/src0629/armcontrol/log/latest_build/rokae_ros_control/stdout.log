@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target rokae_movel_ros_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rokae_movel_ros_node.dir/src/example/movel_control.cpp.o[0m
+[100%] [32m[1mLinking CXX executable rokae_movel_ros_node[0m
+[100%] Built target rokae_movel_ros_node
+-- Install configuration: ""
+-- Installing: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/lib/rokae_ros_control/rokae_movel_ros_node
+-- Set runtime path of "/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/lib/rokae_ros_control/rokae_movel_ros_node" to ""
+-- Up-to-date: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/share/ament_index/resource_index/package_run_dependencies/rokae_ros_control
+-- Up-to-date: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/share/ament_index/resource_index/parent_prefix_path/rokae_ros_control
+-- Up-to-date: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/share/rokae_ros_control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/share/rokae_ros_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/share/rokae_ros_control/environment/path.sh
+-- Up-to-date: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/share/rokae_ros_control/environment/path.dsv
+-- Up-to-date: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/share/rokae_ros_control/local_setup.bash
+-- Up-to-date: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/share/rokae_ros_control/local_setup.sh
+-- Up-to-date: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/share/rokae_ros_control/local_setup.zsh
+-- Up-to-date: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/share/rokae_ros_control/local_setup.dsv
+-- Installing: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/share/rokae_ros_control/package.dsv
+-- Up-to-date: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/share/ament_index/resource_index/packages/rokae_ros_control
+-- Up-to-date: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/share/rokae_ros_control/cmake/rokae_ros_controlConfig.cmake
+-- Up-to-date: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/share/rokae_ros_control/cmake/rokae_ros_controlConfig-version.cmake
+-- Up-to-date: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/share/rokae_ros_control/package.xml

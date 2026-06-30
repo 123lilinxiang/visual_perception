@@ -1,0 +1,59 @@
+[0.015s] Invoking command in '/home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/admin/vsproject/trunk_demo_0.5.1 -DCMAKE_INSTALL_PREFIX=/home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control
+[0.220s] -- The C compiler identification is GNU 11.4.0
+[0.380s] -- The CXX compiler identification is GNU 11.4.0
+[0.404s] -- Detecting C compiler ABI info
+[0.532s] -- Detecting C compiler ABI info - done
+[0.557s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.558s] -- Detecting C compile features
+[0.560s] -- Detecting C compile features - done
+[0.571s] -- Detecting CXX compiler ABI info
+[0.723s] -- Detecting CXX compiler ABI info - done
+[0.749s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.749s] -- Detecting CXX compile features
+[0.751s] -- Detecting CXX compile features - done
+[0.753s] -- 
+[0.753s] --     == trunk_head_control project configuration ==
+[0.754s] -- 
+[0.772s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.060s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.250s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.329s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.337s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.351s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.371s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.397s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.466s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.470s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.599s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.655s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.722s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.737s] -- Looking for pthread.h
+[1.861s] -- Looking for pthread.h - found
+[1.862s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.999s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.003s] -- Found Threads: TRUE  
+[2.173s] -- 
+[2.173s] --     == Final overview for trunk_head_control ==
+[2.173s] -- Version:              0.5.1  @ 
+[2.173s] -- Install prefix:       /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control
+[2.173s] -- Compiler:             /usr/bin/c++
+[2.173s] -- CMAKE_BUILD_TYPE:     Release
+[2.174s] --   possible options: Debug Release RelWithDebInfo MinSizeRel
+[2.174s] --   set with ` cmake -DCMAKE_BUILD_TYPE=Debug .. `
+[2.174s] -- 
+[2.174s] -- Configuring done
+[2.179s] [31mCMake Error at CMakeLists.txt:66 (add_executable):
+[2.180s]   Cannot find source file:
+[2.180s] 
+[2.180s]     src/trunk_head_topic_movej_node.cpp
+[2.180s] 
+[2.180s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[2.180s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[2.180s] 
+[2.180s] [0m
+[2.181s] [31mCMake Error at CMakeLists.txt:66 (add_executable):
+[2.181s]   No SOURCES given to target: trunk_head_movej_node
+[2.181s] 
+[2.181s] [0m
+[2.182s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[2.202s] Invoked command in '/home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/admin/vsproject/trunk_demo_0.5.1 -DCMAKE_INSTALL_PREFIX=/home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control

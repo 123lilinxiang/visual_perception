@@ -1,0 +1,14 @@
+gmake[2]: *** No rule to make target '../../lib/Linux/aarch64/libtrunk_head_control.a', needed by 'bin/trunk_movej_demo'.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** No rule to make target '../../lib/Linux/aarch64/libtrunk_head_control.a', needed by 'bin/trunk_cartesian_demo'.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/admin/vsproject/trunk_demo_0.5.1/src/trunk_head_control.cpp:17:10:[m[K [01;31m[Kfatal error: [m[Krokae/robot.h: No such file or directory
+   17 | #include [01;31m[K"rokae/robot.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/trunk_head_movej_node.dir/build.make:76: CMakeFiles/trunk_head_movej_node.dir/src/trunk_head_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:210: CMakeFiles/trunk_head_movej_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:236: src/CMakeFiles/trunk_movej_demo.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:262: src/CMakeFiles/trunk_cartesian_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

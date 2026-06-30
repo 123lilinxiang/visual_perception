@@ -1,0 +1,16 @@
+/home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/lib/trunk_head_control/trunk_head_movej_node
+/home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/ament_index/resource_index/package_run_dependencies/trunk_head_control
+/home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/ament_index/resource_index/parent_prefix_path/trunk_head_control
+/home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/environment/ament_prefix_path.sh
+/home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/environment/ament_prefix_path.dsv
+/home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/environment/path.sh
+/home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/environment/path.dsv
+/home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/local_setup.bash
+/home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/local_setup.sh
+/home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/local_setup.zsh
+/home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/local_setup.dsv
+/home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/package.dsv
+/home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/ament_index/resource_index/packages/trunk_head_control
+/home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/cmake/trunk_head_controlConfig.cmake
+/home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/cmake/trunk_head_controlConfig-version.cmake
+/home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/package.xml

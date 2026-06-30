@@ -1,0 +1,56 @@
+[0.016s] Invoking command in '/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/build/rokae_ros_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/build/rokae_ros_control -- -j6 -l6
+[0.085s] [35m[1mConsolidate compiler generated dependencies of target rokae_movel_ros_node[0m
+[0.127s] [ 50%] [32mBuilding CXX object CMakeFiles/rokae_movel_ros_node.dir/src/example/movel_left.cpp.o[0m
+[4.870s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+[4.870s]                  from [01m[K/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/include/rokae/planner.h:16[m[K,
+[4.870s]                  from [01m[K/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/include/rokae/robot.h:21[m[K,
+[4.871s]                  from [01m[K/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/src/example/movel_left.cpp:10[m[K:
+[4.871s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[4.871s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[4.872s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[4.872s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.873s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+[4.873s]                  from [01m[K/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/include/rokae/planner.h:16[m[K,
+[4.873s]                  from [01m[K/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/include/rokae/robot.h:21[m[K,
+[4.873s]                  from [01m[K/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/src/example/movel_left.cpp:10[m[K:
+[4.874s] [01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[4.874s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[4.874s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.874s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+[4.875s]                  from [01m[K/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/include/rokae/planner.h:16[m[K,
+[4.875s]                  from [01m[K/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/include/rokae/robot.h:21[m[K,
+[4.875s]                  from [01m[K/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/src/example/movel_left.cpp:10[m[K:
+[4.876s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[4.876s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[4.876s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[4.876s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.877s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+[4.877s]                  from [01m[K/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/include/rokae/planner.h:16[m[K,
+[4.877s]                  from [01m[K/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/include/rokae/robot.h:21[m[K,
+[4.878s]                  from [01m[K/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/src/example/movel_left.cpp:10[m[K:
+[4.878s] [01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[4.878s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[4.878s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[17.882s] [100%] [32m[1mLinking CXX executable rokae_movel_ros_node[0m
+[19.320s] [100%] Built target rokae_movel_ros_node
+[19.343s] Invoked command in '/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/build/rokae_ros_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/build/rokae_ros_control -- -j6 -l6
+[19.364s] Invoking command in '/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/build/rokae_ros_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/build/rokae_ros_control
+[19.381s] -- Install configuration: ""
+[19.381s] -- Installing: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/lib/rokae_ros_control/rokae_movel_ros_node
+[19.405s] -- Set runtime path of "/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/lib/rokae_ros_control/rokae_movel_ros_node" to ""
+[19.405s] -- Up-to-date: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/share/ament_index/resource_index/package_run_dependencies/rokae_ros_control
+[19.405s] -- Up-to-date: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/share/ament_index/resource_index/parent_prefix_path/rokae_ros_control
+[19.405s] -- Up-to-date: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/share/rokae_ros_control/environment/ament_prefix_path.sh
+[19.405s] -- Up-to-date: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/share/rokae_ros_control/environment/ament_prefix_path.dsv
+[19.405s] -- Up-to-date: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/share/rokae_ros_control/environment/path.sh
+[19.406s] -- Up-to-date: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/share/rokae_ros_control/environment/path.dsv
+[19.406s] -- Up-to-date: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/share/rokae_ros_control/local_setup.bash
+[19.406s] -- Up-to-date: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/share/rokae_ros_control/local_setup.sh
+[19.406s] -- Up-to-date: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/share/rokae_ros_control/local_setup.zsh
+[19.406s] -- Up-to-date: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/share/rokae_ros_control/local_setup.dsv
+[19.406s] -- Installing: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/share/rokae_ros_control/package.dsv
+[19.406s] -- Up-to-date: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/share/ament_index/resource_index/packages/rokae_ros_control
+[19.406s] -- Up-to-date: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/share/rokae_ros_control/cmake/rokae_ros_controlConfig.cmake
+[19.407s] -- Up-to-date: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/share/rokae_ros_control/cmake/rokae_ros_controlConfig-version.cmake
+[19.407s] -- Up-to-date: /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/install/rokae_ros_control/share/rokae_ros_control/package.xml
+[19.410s] Invoked command in '/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/build/rokae_ros_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/build/rokae_ros_control

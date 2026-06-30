@@ -1,0 +1,48 @@
+# 机器人配置
+robot:
+  right_hand_enable: true #是否有右手、右臂
+  left_hand_enable: true #是否有左手、左臂
+  right_hand_ip: "192.168.71.160"
+  left_hand_ip: "192.168.71.161"
+  local_ip: "192.168.71.199" # sdk 控制器上本地ip。
+  
+
+# ROS2话题配置
+ros:
+  left_hand: true
+  right_hand: true
+  right_hand_topic: "/cb_right_hand_control_cmd"
+  left_hand_topic: "/cb_left_hand_control_cmd"
+
+# CAN配置
+can:
+  right_hand_id: "0x27"
+  left_hand_id: "0x28"
+  send_interval_ms: 45
+# 通用配置
+test_mode: false
+exoskeleton_ctl : true  #是否启用外骨骼控制机械臂。
+glove_ctl: true   #是否启用手套控制灵巧手。
+
+replay:
+  speed: 2.0              # 回放速度倍率
+  loop_mode: true        # 是否循环播放：true-循环, false-一次性
+  start_delay_ms: 1       #收到回放指令后等待多久。 
+velocity_limit:
+  enable: true           # 是否启用限速逻辑
+  factor: 0.75           # 限速比例系数（0.0-1.0）
+udp:
+  enable: false
+  listen_port: 9002
+  replay_file_path: "./recordings/record_20251214_144959.dat"
+
+# 日志配置
+logging:
+  log_dir: "logs"                    # 日志目录（相对于项目根目录）
+  log_prefix: "teleop"                # 日志文件前缀
+  level: "INFO"                       # 日志级别: DEBUG, INFO, WARNING, ERROR, FATAL
+  console_output: true                # 是否输出到控制台
+  file_output: true                   # 是否输出到文件
+  max_file_size: 10485760             # 单个日志文件最大大小（字节，10MB）
+  max_files: 5                        # 保留的日志文件数量
+  detect_background: true             # 自动检测是否后台运行

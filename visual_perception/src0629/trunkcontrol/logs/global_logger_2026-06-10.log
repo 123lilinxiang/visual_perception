@@ -1,0 +1,66 @@
+[I|2026-06-10 20:17:17.845 6297] uid: default_uid | FileTransfer connect failed (256)
+[I|2026-06-10 20:18:27.529 7085] uid: default_uid | xService 192.168.71.160:6666 connect
+[I|2026-06-10 20:18:27.573 7085] uid: 1edf356b-d4b1 | xService 192.168.71.160:6666 disconnect
+[I|2026-06-10 20:19:54.307 7645] uid: default_uid | xService 192.168.71.160:6666 connect
+[I|2026-06-10 20:19:54.354 7645] uid: 1edf356b-d4b1 | xService 192.168.71.160:6666 disconnect
+[I|2026-06-10 20:21:19.618 7875] uid: default_uid | xService 192.168.71.162:6666 connect
+[I|2026-06-10 20:21:19.705 7863] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-10 20:21:19.705 7863] uid: 1edf356b-d4b1 | Connect to 192.168.71.162 from 
+[I|2026-06-10 20:21:19.749 7863] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-10 20:21:19.792 7863] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-10 20:21:19.793 7863] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-10 20:22:39.701 7882] uid: 1edf356b-d4b1 | Process joints [-5, -80, 10, 5], s:200, z:-1, js:-1
+[I|2026-06-10 20:22:39.701 7882] uid: 1edf356b-d4b1 | Append cmd absj#0
+[I|2026-06-10 20:22:39.745 7881] uid: 1edf356b-d4b1 | Notified absj#0 [0] finish:false (-50101)
+[I|2026-06-10 20:22:39.745 7882] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-10 20:23:39.314 7882] uid: 1edf356b-d4b1 | Process joints [0, -90, 0, 0], s:200, z:-1, js:-1
+[I|2026-06-10 20:23:39.314 7882] uid: 1edf356b-d4b1 | Append cmd absj#1
+[I|2026-06-10 20:23:39.356 7882] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-10 20:23:39.357 7881] uid: 1edf356b-d4b1 | Notified absj#1 [0] finish:false (-50101)
+[I|2026-06-10 20:24:26.694 7882] uid: 1edf356b-d4b1 | Process joints [0, -1.57, 0, 0], s:200, z:-1, js:-1
+[I|2026-06-10 20:24:26.694 7882] uid: 1edf356b-d4b1 | Append cmd absj#2
+[I|2026-06-10 20:24:26.736 7882] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-10 20:24:27.096 7881] uid: 1edf356b-d4b1 | Notified absj#2 [0] finish:true (0)
+[I|2026-06-10 20:24:57.215 7882] uid: 1edf356b-d4b1 | Process joints [0, -50, 0, 0], s:200, z:-1, js:-1
+[I|2026-06-10 20:24:57.215 7882] uid: 1edf356b-d4b1 | Append cmd absj#3
+[I|2026-06-10 20:24:57.261 7882] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-10 20:24:57.261 7881] uid: 1edf356b-d4b1 | Notified absj#3 [0] finish:false (-50101)
+[I|2026-06-10 20:25:08.736 7882] uid: 1edf356b-d4b1 | Process joints [0, -1, 0, 0], s:200, z:-1, js:-1
+[I|2026-06-10 20:25:08.736 7882] uid: 1edf356b-d4b1 | Append cmd absj#4
+[I|2026-06-10 20:25:08.781 7882] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-10 20:25:15.989 7881] uid: 1edf356b-d4b1 | Notified absj#4 [0] finish:true (0)
+[I|2026-06-10 20:25:22.704 7882] uid: 1edf356b-d4b1 | Process joints [0, -1.57, 0, 0], s:200, z:-1, js:-1
+[I|2026-06-10 20:25:22.704 7882] uid: 1edf356b-d4b1 | Append cmd absj#5
+[I|2026-06-10 20:25:22.748 7882] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-10 20:25:29.954 7881] uid: 1edf356b-d4b1 | Notified absj#5 [0] finish:true (0)
+[I|2026-06-10 20:25:32.485 7882] uid: 1edf356b-d4b1 | Process joints [0, -1.57, 0, 0], s:200, z:-1, js:-1
+[I|2026-06-10 20:25:32.485 7882] uid: 1edf356b-d4b1 | Append cmd absj#6
+[I|2026-06-10 20:25:32.528 7882] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-10 20:25:35.077 7881] uid: 1edf356b-d4b1 | Notified absj#6 [0] finish:true (0)
+[I|2026-06-10 20:25:44.456 7882] uid: 1edf356b-d4b1 | Process joints [0, -1.57, 0, 0], s:200, z:-1, js:-1
+[I|2026-06-10 20:25:44.456 7882] uid: 1edf356b-d4b1 | Append cmd absj#7
+[I|2026-06-10 20:25:44.500 7882] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-10 20:25:45.573 7881] uid: 1edf356b-d4b1 | Notified absj#7 [0] finish:true (0)
+[I|2026-06-10 20:25:56.438 7882] uid: 1edf356b-d4b1 | Process joints [0, -1.57, 0, 0], s:200, z:-1, js:-1
+[I|2026-06-10 20:25:56.438 7882] uid: 1edf356b-d4b1 | Append cmd absj#8
+[I|2026-06-10 20:25:56.480 7882] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-10 20:26:29.029 7875] uid: 1edf356b-d4b1 | xService 192.168.71.162:6666 disconnect
+[I|2026-06-10 20:26:31.518 9437] uid: default_uid | xService 192.168.71.162:6666 connect
+[I|2026-06-10 20:26:31.609 9425] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-10 20:26:31.609 9425] uid: 1edf356b-d4b1 | Connect to 192.168.71.162 from 
+[I|2026-06-10 20:26:31.652 9425] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-10 20:26:31.697 9425] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-10 20:26:31.697 9425] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-10 20:26:37.834 9444] uid: 1edf356b-d4b1 | Process joints [0, -1.57, 0, 0], s:200, z:-1, js:-1
+[I|2026-06-10 20:26:37.834 9444] uid: 1edf356b-d4b1 | Append cmd absj#0
+[I|2026-06-10 20:26:37.876 9444] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-10 20:26:39.079 9443] uid: 1edf356b-d4b1 | Notified absj#0 [0] finish:true (0)
+[I|2026-06-10 20:26:47.394 9444] uid: 1edf356b-d4b1 | Process joints [0, -1.57, 0, 0], s:200, z:-1, js:-1
+[I|2026-06-10 20:26:47.394 9444] uid: 1edf356b-d4b1 | Append cmd absj#1
+[I|2026-06-10 20:26:47.440 9444] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-10 20:26:48.510 9443] uid: 1edf356b-d4b1 | Notified absj#1 [0] finish:true (0)
+[I|2026-06-10 20:26:51.850 9444] uid: 1edf356b-d4b1 | Process joints [0, -1.57, 0, 0], s:200, z:-1, js:-1
+[I|2026-06-10 20:26:51.850 9444] uid: 1edf356b-d4b1 | Append cmd absj#2
+[I|2026-06-10 20:26:51.896 9444] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-10 20:26:52.462 9443] uid: 1edf356b-d4b1 | Notified absj#2 [0] finish:true (0)
+[I|2026-06-10 20:26:55.407 9437] uid: 1edf356b-d4b1 | xService 192.168.71.162:6666 disconnect

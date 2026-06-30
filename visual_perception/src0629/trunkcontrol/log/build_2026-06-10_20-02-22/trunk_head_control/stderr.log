@@ -1,0 +1,10 @@
+gmake[2]: *** No rule to make target '../../lib/Linux/aarch64/libtrunk_head_control.a', needed by 'bin/trunk_movej_demo'.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:236: src/CMakeFiles/trunk_movej_demo.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** No rule to make target '../../lib/Linux/aarch64/libtrunk_head_control.a', needed by 'bin/trunk_cartesian_demo'.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:262: src/CMakeFiles/trunk_cartesian_demo.dir/all] Error 2
+/usr/bin/ld: cannot find -ltrunk_head_control: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/trunk_head_movej_node.dir/build.make:159: bin/trunk_head_movej_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:210: CMakeFiles/trunk_head_movej_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

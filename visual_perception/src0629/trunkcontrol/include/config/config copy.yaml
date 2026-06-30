@@ -1,0 +1,21 @@
+# 机器人配置
+robot:
+  right_hand_ip: "192.168.2.160"
+  left_hand_ip: "192.168.2.161"
+
+# ROS2话题配置
+ros:
+  left_hand: false
+  right_hand: true
+  right_hand_topic: "/cb_right_hand_control_cmd"
+  left_hand_topic: "/cb_left_hand_control_cmd"
+
+# CAN配置
+can:
+  right_hand_id: "0x27"
+  left_hand_id: "0x28"
+  send_interval_ms: 20
+# 通用配置
+test_mode: true
+exoskeleton_ctl : false  #是否启用外骨骼控制机械臂。
+glove_ctl: true   #是否启用手套控制灵巧手。

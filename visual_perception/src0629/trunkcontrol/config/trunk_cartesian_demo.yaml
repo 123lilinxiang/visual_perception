@@ -1,0 +1,43 @@
+# trunk_cartesian_demo 专用配置
+# 用法: ./build/bin/trunk_cartesian_demo ./config/trunk_cartesian_demo.yaml
+# 修改建议: 先用很小位移（1~2cm）验证方向，再逐步增大
+
+robot:
+  # 躯干机器人控制器 IP
+  trunk_robot_ip: "192.168.71.162"
+
+motion:
+  # 笛卡尔 MoveL 建议速度，通常比关节 demo 更保守
+  # 首次联调建议 80~200，稳定后再提高
+  trunk_speed: 200.0
+  # 预留加速度字段，当前 demo 仅读取但不使用
+  trunk_acc: 100.0
+  # target_mode: offset(相对当前位姿) 或 absolute(绝对位姿)
+  # - offset: 每一步相对“当前位姿”叠加，适合小步探测
+  # - absolute: 直接走到给定绝对位姿，适合重复演示固定点
+  target_mode: "offset"
+
+# 笛卡尔动作序列
+# 当 target_mode=offset 时，trunk 为 [dX,dY,dZ,dRx,dRy,dRz]（米/弧度）
+# 当 target_mode=absolute 时，trunk 为 [X,Y,Z,Rx,Ry,Rz]（米/弧度）
+# 说明:
+# - head: 头部 2 轴目标
+# - wait_after_ms: 本动作结束后额外等待时间（便于观察）
+# 注意:
+# - offset 会累计，连续多步后终点会漂移；演示常用“前进+后退”成对动作
+# - 姿态分量 Rx/Ry/Rz 建议先保持 0，先确认平移方向正确
+sequences:
+  - name: "前探1cm"
+    trunk: [0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
+    head: [0.0, 0.0]
+    wait_after_ms: 1000
+
+  - name: "后退1cm"
+    trunk: [-0.00, -0.00, 0.00, 0.00, 0.00, 0.00]
+    head: [0.1, 0.0]
+    wait_after_ms: 800
+
+  # - name: "前探1cm"
+  #   trunk: [0.01, 0.00, 0.00, 0.00, 0.00, 0.00]
+  #   head: [0.0, 0.0]
+  #   wait_after_ms: 1000

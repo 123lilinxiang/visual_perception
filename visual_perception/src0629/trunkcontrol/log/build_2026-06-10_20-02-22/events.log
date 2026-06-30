@@ -1,0 +1,285 @@
+[0.000000] (-) TimerEvent: {}
+[0.000499] (trunk_head_control) JobQueued: {'identifier': 'trunk_head_control', 'dependencies': OrderedDict()}
+[0.000920] (trunk_head_control) JobStarted: {'identifier': 'trunk_head_control'}
+[0.011922] (trunk_head_control) JobProgress: {'identifier': 'trunk_head_control', 'progress': 'cmake'}
+[0.012949] (trunk_head_control) JobProgress: {'identifier': 'trunk_head_control', 'progress': 'build'}
+[0.013958] (trunk_head_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control', '--', '-j6', '-l6'], 'cwd': '/home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control', 'env': OrderedDict([('USER', 'admin'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_CLIENT', '192.168.3.7 60395 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/admin/.vscode-server/cli/servers/Stable-6a44c352bd24569c417e530095901b649960f9f8/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('BROWSER', '/home/admin/.vscode-server/cli/servers/Stable-6a44c352bd24569c417e530095901b649960f9f8/server/bin/helpers/browser.sh'), ('HOME', '/home/admin'), ('MOTD_SHOWN', 'pam'), ('OLDPWD', '/home/admin/vsproject/trunk_demo_0.5.1/build'), ('LESS', '-R'), ('NVM_BIN', '/home/admin/.nvm/versions/node/v24.15.0/bin'), ('TERM_PROGRAM_VERSION', '1.123.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4badbbac-619b-4c69-a243-42b026e2b708.sock'), ('ZSH', '/home/admin/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('NVM_INC', '/home/admin/.nvm/versions/node/v24.15.0/include/node'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/admin/.vscode-server/cli/servers/Stable-6a44c352bd24569c417e530095901b649960f9f8/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/admin/.vscode-server/cli/servers/Stable-6a44c352bd24569c417e530095901b649960f9f8/server/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/admin/.nvm'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'admin'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda/bin:/home/admin/.vscode-server/cli/servers/Stable-6a44c352bd24569c417e530095901b649960f9f8/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/cuda/bin:/home/admin/.nvm/versions/node/v24.15.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6548294479.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', '302a3ecc-da02-4c26-8ab4-d697ea35b22c'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control'), ('SSH_CONNECTION', '192.168.3.7 60395 192.168.3.10 22'), ('NVM_CD_FLAGS', '-q'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.053060] (trunk_head_control) StdoutLine: {'line': b'-- \n'}
+[0.053528] (trunk_head_control) StdoutLine: {'line': b'--     == trunk_head_control project configuration ==\n'}
+[0.053683] (trunk_head_control) StdoutLine: {'line': b'-- \n'}
+[0.055017] (trunk_head_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099517] (-) TimerEvent: {}
+[0.200071] (-) TimerEvent: {}
+[0.278032] (trunk_head_control) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.300253] (-) TimerEvent: {}
+[0.336958] (trunk_head_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.340996] (trunk_head_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.351319] (trunk_head_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.365752] (trunk_head_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.383337] (trunk_head_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400301] (-) TimerEvent: {}
+[0.427904] (trunk_head_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.429777] (trunk_head_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500450] (-) TimerEvent: {}
+[0.581202] (trunk_head_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.600548] (-) TimerEvent: {}
+[0.660304] (trunk_head_control) StdoutLine: {'line': b'-- \n'}
+[0.660721] (trunk_head_control) StdoutLine: {'line': b'--     == Final overview for trunk_head_control ==\n'}
+[0.660866] (trunk_head_control) StdoutLine: {'line': b'-- Version:              0.5.1  @ \n'}
+[0.660984] (trunk_head_control) StdoutLine: {'line': b'-- Install prefix:       /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control\n'}
+[0.661095] (trunk_head_control) StdoutLine: {'line': b'-- Compiler:             /usr/bin/c++\n'}
+[0.661203] (trunk_head_control) StdoutLine: {'line': b'-- CMAKE_BUILD_TYPE:     Release\n'}
+[0.661306] (trunk_head_control) StdoutLine: {'line': b'--   possible options: Debug Release RelWithDebInfo MinSizeRel\n'}
+[0.661408] (trunk_head_control) StdoutLine: {'line': b'--   set with ` cmake -DCMAKE_BUILD_TYPE=Debug .. `\n'}
+[0.661508] (trunk_head_control) StdoutLine: {'line': b'-- \n'}
+[0.661606] (trunk_head_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.684456] (trunk_head_control) StdoutLine: {'line': b'-- Generating done\n'}
+[0.692888] (trunk_head_control) StdoutLine: {'line': b'-- Build files have been written to: /home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control\n'}
+[0.700657] (-) TimerEvent: {}
+[0.744963] (trunk_head_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target trunk_movej_demo\x1b[0m\n'}
+[0.745469] (trunk_head_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target trunk_cartesian_demo\x1b[0m\n'}
+[0.761618] (trunk_head_control) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/trunk_head_movej_node.dir/src/trunk_head_control.cpp.o\x1b[0m\n'}
+[0.762693] (trunk_head_control) StderrLine: {'line': b"gmake[2]: *** No rule to make target '../../lib/Linux/aarch64/libtrunk_head_control.a', needed by 'bin/trunk_movej_demo'.  Stop.\n"}
+[0.763082] (trunk_head_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:236: src/CMakeFiles/trunk_movej_demo.dir/all] Error 2\n'}
+[0.763246] (trunk_head_control) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[0.764696] (trunk_head_control) StderrLine: {'line': b"gmake[2]: *** No rule to make target '../../lib/Linux/aarch64/libtrunk_head_control.a', needed by 'bin/trunk_cartesian_demo'.  Stop.\n"}
+[0.764986] (trunk_head_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:262: src/CMakeFiles/trunk_cartesian_demo.dir/all] Error 2\n'}
+[0.800768] (-) TimerEvent: {}
+[0.901383] (-) TimerEvent: {}
+[1.002138] (-) TimerEvent: {}
+[1.102929] (-) TimerEvent: {}
+[1.203703] (-) TimerEvent: {}
+[1.304515] (-) TimerEvent: {}
+[1.405312] (-) TimerEvent: {}
+[1.506135] (-) TimerEvent: {}
+[1.606946] (-) TimerEvent: {}
+[1.707737] (-) TimerEvent: {}
+[1.808582] (-) TimerEvent: {}
+[1.909408] (-) TimerEvent: {}
+[2.010222] (-) TimerEvent: {}
+[2.111072] (-) TimerEvent: {}
+[2.211931] (-) TimerEvent: {}
+[2.312757] (-) TimerEvent: {}
+[2.413574] (-) TimerEvent: {}
+[2.514373] (-) TimerEvent: {}
+[2.615193] (-) TimerEvent: {}
+[2.716020] (-) TimerEvent: {}
+[2.816823] (-) TimerEvent: {}
+[2.917626] (-) TimerEvent: {}
+[3.018432] (-) TimerEvent: {}
+[3.119275] (-) TimerEvent: {}
+[3.220136] (-) TimerEvent: {}
+[3.320942] (-) TimerEvent: {}
+[3.421741] (-) TimerEvent: {}
+[3.522564] (-) TimerEvent: {}
+[3.623382] (-) TimerEvent: {}
+[3.724227] (-) TimerEvent: {}
+[3.825041] (-) TimerEvent: {}
+[3.925860] (-) TimerEvent: {}
+[4.026672] (-) TimerEvent: {}
+[4.127498] (-) TimerEvent: {}
+[4.228369] (-) TimerEvent: {}
+[4.329186] (-) TimerEvent: {}
+[4.429995] (-) TimerEvent: {}
+[4.530777] (-) TimerEvent: {}
+[4.631498] (-) TimerEvent: {}
+[4.732328] (-) TimerEvent: {}
+[4.833131] (-) TimerEvent: {}
+[4.933956] (-) TimerEvent: {}
+[5.034776] (-) TimerEvent: {}
+[5.135588] (-) TimerEvent: {}
+[5.236418] (-) TimerEvent: {}
+[5.337259] (-) TimerEvent: {}
+[5.438074] (-) TimerEvent: {}
+[5.538889] (-) TimerEvent: {}
+[5.639699] (-) TimerEvent: {}
+[5.740558] (-) TimerEvent: {}
+[5.841351] (-) TimerEvent: {}
+[5.942154] (-) TimerEvent: {}
+[6.042979] (-) TimerEvent: {}
+[6.143827] (-) TimerEvent: {}
+[6.244631] (-) TimerEvent: {}
+[6.345439] (-) TimerEvent: {}
+[6.446212] (-) TimerEvent: {}
+[6.546984] (-) TimerEvent: {}
+[6.647812] (-) TimerEvent: {}
+[6.748609] (-) TimerEvent: {}
+[6.849414] (-) TimerEvent: {}
+[6.950218] (-) TimerEvent: {}
+[7.051026] (-) TimerEvent: {}
+[7.151861] (-) TimerEvent: {}
+[7.252641] (-) TimerEvent: {}
+[7.353435] (-) TimerEvent: {}
+[7.454203] (-) TimerEvent: {}
+[7.554954] (-) TimerEvent: {}
+[7.655711] (-) TimerEvent: {}
+[7.756485] (-) TimerEvent: {}
+[7.857242] (-) TimerEvent: {}
+[7.958021] (-) TimerEvent: {}
+[8.058808] (-) TimerEvent: {}
+[8.159570] (-) TimerEvent: {}
+[8.260362] (-) TimerEvent: {}
+[8.361136] (-) TimerEvent: {}
+[8.461920] (-) TimerEvent: {}
+[8.562730] (-) TimerEvent: {}
+[8.663523] (-) TimerEvent: {}
+[8.764322] (-) TimerEvent: {}
+[8.865097] (-) TimerEvent: {}
+[8.965866] (-) TimerEvent: {}
+[9.066676] (-) TimerEvent: {}
+[9.167450] (-) TimerEvent: {}
+[9.268245] (-) TimerEvent: {}
+[9.369009] (-) TimerEvent: {}
+[9.469784] (-) TimerEvent: {}
+[9.570580] (-) TimerEvent: {}
+[9.671292] (-) TimerEvent: {}
+[9.772154] (-) TimerEvent: {}
+[9.872968] (-) TimerEvent: {}
+[9.973825] (-) TimerEvent: {}
+[10.074636] (-) TimerEvent: {}
+[10.175441] (-) TimerEvent: {}
+[10.276304] (-) TimerEvent: {}
+[10.377086] (-) TimerEvent: {}
+[10.477856] (-) TimerEvent: {}
+[10.578621] (-) TimerEvent: {}
+[10.679398] (-) TimerEvent: {}
+[10.780384] (-) TimerEvent: {}
+[10.881179] (-) TimerEvent: {}
+[10.981965] (-) TimerEvent: {}
+[11.082755] (-) TimerEvent: {}
+[11.183522] (-) TimerEvent: {}
+[11.284339] (-) TimerEvent: {}
+[11.385114] (-) TimerEvent: {}
+[11.485870] (-) TimerEvent: {}
+[11.586621] (-) TimerEvent: {}
+[11.687361] (-) TimerEvent: {}
+[11.788129] (-) TimerEvent: {}
+[11.888870] (-) TimerEvent: {}
+[11.989634] (-) TimerEvent: {}
+[12.090437] (-) TimerEvent: {}
+[12.191238] (-) TimerEvent: {}
+[12.292057] (-) TimerEvent: {}
+[12.392854] (-) TimerEvent: {}
+[12.493671] (-) TimerEvent: {}
+[12.594653] (-) TimerEvent: {}
+[12.695300] (-) TimerEvent: {}
+[12.795953] (-) TimerEvent: {}
+[12.896658] (-) TimerEvent: {}
+[12.997297] (-) TimerEvent: {}
+[13.097952] (-) TimerEvent: {}
+[13.198609] (-) TimerEvent: {}
+[13.299247] (-) TimerEvent: {}
+[13.399924] (-) TimerEvent: {}
+[13.500589] (-) TimerEvent: {}
+[13.601253] (-) TimerEvent: {}
+[13.701915] (-) TimerEvent: {}
+[13.802579] (-) TimerEvent: {}
+[13.903248] (-) TimerEvent: {}
+[14.003891] (-) TimerEvent: {}
+[14.104528] (-) TimerEvent: {}
+[14.205200] (-) TimerEvent: {}
+[14.305897] (-) TimerEvent: {}
+[14.406690] (-) TimerEvent: {}
+[14.507478] (-) TimerEvent: {}
+[14.608348] (-) TimerEvent: {}
+[14.709162] (-) TimerEvent: {}
+[14.810221] (-) TimerEvent: {}
+[14.911035] (-) TimerEvent: {}
+[15.011869] (-) TimerEvent: {}
+[15.112705] (-) TimerEvent: {}
+[15.213506] (-) TimerEvent: {}
+[15.314295] (-) TimerEvent: {}
+[15.415145] (-) TimerEvent: {}
+[15.515992] (-) TimerEvent: {}
+[15.616835] (-) TimerEvent: {}
+[15.717645] (-) TimerEvent: {}
+[15.818463] (-) TimerEvent: {}
+[15.919307] (-) TimerEvent: {}
+[16.020153] (-) TimerEvent: {}
+[16.120974] (-) TimerEvent: {}
+[16.221771] (-) TimerEvent: {}
+[16.322598] (-) TimerEvent: {}
+[16.423408] (-) TimerEvent: {}
+[16.524239] (-) TimerEvent: {}
+[16.625044] (-) TimerEvent: {}
+[16.725868] (-) TimerEvent: {}
+[16.826673] (-) TimerEvent: {}
+[16.927451] (-) TimerEvent: {}
+[17.028493] (-) TimerEvent: {}
+[17.129293] (-) TimerEvent: {}
+[17.230116] (-) TimerEvent: {}
+[17.330933] (-) TimerEvent: {}
+[17.431723] (-) TimerEvent: {}
+[17.532734] (-) TimerEvent: {}
+[17.633537] (-) TimerEvent: {}
+[17.734321] (-) TimerEvent: {}
+[17.835120] (-) TimerEvent: {}
+[17.935927] (-) TimerEvent: {}
+[18.036942] (-) TimerEvent: {}
+[18.137766] (-) TimerEvent: {}
+[18.238579] (-) TimerEvent: {}
+[18.339395] (-) TimerEvent: {}
+[18.440248] (-) TimerEvent: {}
+[18.541053] (-) TimerEvent: {}
+[18.641859] (-) TimerEvent: {}
+[18.742685] (-) TimerEvent: {}
+[18.843477] (-) TimerEvent: {}
+[18.944311] (-) TimerEvent: {}
+[19.045132] (-) TimerEvent: {}
+[19.145954] (-) TimerEvent: {}
+[19.246759] (-) TimerEvent: {}
+[19.347574] (-) TimerEvent: {}
+[19.448404] (-) TimerEvent: {}
+[19.549200] (-) TimerEvent: {}
+[19.649908] (-) TimerEvent: {}
+[19.750725] (-) TimerEvent: {}
+[19.851556] (-) TimerEvent: {}
+[19.952416] (-) TimerEvent: {}
+[20.053243] (-) TimerEvent: {}
+[20.154098] (-) TimerEvent: {}
+[20.254934] (-) TimerEvent: {}
+[20.355741] (-) TimerEvent: {}
+[20.456594] (-) TimerEvent: {}
+[20.557420] (-) TimerEvent: {}
+[20.658232] (-) TimerEvent: {}
+[20.759046] (-) TimerEvent: {}
+[20.859875] (-) TimerEvent: {}
+[20.960663] (-) TimerEvent: {}
+[21.061460] (-) TimerEvent: {}
+[21.162255] (-) TimerEvent: {}
+[21.263058] (-) TimerEvent: {}
+[21.363907] (-) TimerEvent: {}
+[21.464693] (-) TimerEvent: {}
+[21.565482] (-) TimerEvent: {}
+[21.666264] (-) TimerEvent: {}
+[21.767056] (-) TimerEvent: {}
+[21.867855] (-) TimerEvent: {}
+[21.968648] (-) TimerEvent: {}
+[22.069447] (-) TimerEvent: {}
+[22.170229] (-) TimerEvent: {}
+[22.271037] (-) TimerEvent: {}
+[22.371913] (-) TimerEvent: {}
+[22.472728] (-) TimerEvent: {}
+[22.573563] (-) TimerEvent: {}
+[22.674423] (-) TimerEvent: {}
+[22.775297] (-) TimerEvent: {}
+[22.876187] (-) TimerEvent: {}
+[22.977056] (-) TimerEvent: {}
+[23.077916] (-) TimerEvent: {}
+[23.178757] (-) TimerEvent: {}
+[23.279613] (-) TimerEvent: {}
+[23.380474] (-) TimerEvent: {}
+[23.481296] (-) TimerEvent: {}
+[23.582075] (-) TimerEvent: {}
+[23.682721] (-) TimerEvent: {}
+[23.783371] (-) TimerEvent: {}
+[23.798400] (trunk_head_control) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX executable bin/trunk_head_movej_node\x1b[0m\n'}
+[23.849332] (trunk_head_control) StderrLine: {'line': b'/usr/bin/ld: cannot find -ltrunk_head_control: No such file or directory\n'}
+[23.883541] (-) TimerEvent: {}
+[23.931580] (trunk_head_control) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[23.934631] (trunk_head_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/trunk_head_movej_node.dir/build.make:159: bin/trunk_head_movej_node] Error 1\n'}
+[23.935187] (trunk_head_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:210: CMakeFiles/trunk_head_movej_node.dir/all] Error 2\n'}
+[23.935815] (trunk_head_control) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[23.940246] (trunk_head_control) CommandEnded: {'returncode': 2}
+[23.966355] (trunk_head_control) JobEnded: {'identifier': 'trunk_head_control', 'rc': 2}
+[23.977722] (-) EventReactorShutdown: {}

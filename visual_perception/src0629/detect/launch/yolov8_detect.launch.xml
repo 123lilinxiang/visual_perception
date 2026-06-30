@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="yolov8_detect"
+        exec="yolov8_detect"
+        name="yolov8_detect"
+        output="screen"
+        respawn="true"
+        respawn_delay="5.0">
+  </node>
+</launch>

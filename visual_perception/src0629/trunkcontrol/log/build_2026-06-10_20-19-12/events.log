@@ -1,0 +1,274 @@
+[0.000000] (-) TimerEvent: {}
+[0.000542] (trunk_head_control) JobQueued: {'identifier': 'trunk_head_control', 'dependencies': OrderedDict()}
+[0.000967] (trunk_head_control) JobStarted: {'identifier': 'trunk_head_control'}
+[0.012943] (trunk_head_control) JobProgress: {'identifier': 'trunk_head_control', 'progress': 'cmake'}
+[0.013748] (trunk_head_control) Command: {'cmd': ['/usr/bin/cmake', '/home/admin/vsproject/trunk_demo_0.5.1', '-DCMAKE_INSTALL_PREFIX=/home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control'], 'cwd': '/home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'admin'), ('SSH_CLIENT', '192.168.3.7 60395 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/admin/.vscode-server/cli/servers/Stable-6a44c352bd24569c417e530095901b649960f9f8/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/admin/vsproject/trunk_demo_0.5.1/lib/Linux/aarch64:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('BROWSER', '/home/admin/.vscode-server/cli/servers/Stable-6a44c352bd24569c417e530095901b649960f9f8/server/bin/helpers/browser.sh'), ('LESS', '-R'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/admin'), ('OLDPWD', '/home/admin/vsproject/trunk_demo_0.5.1/build'), ('TERM_PROGRAM_VERSION', '1.123.0'), ('NVM_BIN', '/home/admin/.nvm/versions/node/v24.15.0/bin'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4badbbac-619b-4c69-a243-42b026e2b708.sock'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('NVM_INC', '/home/admin/.nvm/versions/node/v24.15.0/include/node'), ('ZSH', '/home/admin/.oh-my-zsh'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'less'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/admin/.vscode-server/cli/servers/Stable-6a44c352bd24569c417e530095901b649960f9f8/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/admin/.vscode-server/cli/servers/Stable-6a44c352bd24569c417e530095901b649960f9f8/server/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/admin/.nvm'), ('COLCON_PREFIX_PATH', '/home/admin/vsproject/trunk_demo_0.5.1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'admin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda/bin:/home/admin/.vscode-server/cli/servers/Stable-6a44c352bd24569c417e530095901b649960f9f8/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/cuda/bin:/home/admin/.nvm/versions/node/v24.15.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6548294479.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', '302a3ecc-da02-4c26-8ab4-d697ea35b22c'), ('PWD', '/home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.3.7 60395 192.168.3.10 22'), ('NVM_CD_FLAGS', '-q'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control:/opt/ros/humble')]), 'shell': False}
+[0.099336] (trunk_head_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099857] (-) TimerEvent: {}
+[0.198406] (trunk_head_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.200152] (-) TimerEvent: {}
+[0.216985] (trunk_head_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300509] (-) TimerEvent: {}
+[0.344783] (trunk_head_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.365798] (trunk_head_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.366446] (trunk_head_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.367442] (trunk_head_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.375289] (trunk_head_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400645] (-) TimerEvent: {}
+[0.501263] (-) TimerEvent: {}
+[0.507383] (trunk_head_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.533166] (trunk_head_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.534174] (trunk_head_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.535741] (trunk_head_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.544596] (trunk_head_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.601382] (-) TimerEvent: {}
+[0.701991] (-) TimerEvent: {}
+[0.802656] (-) TimerEvent: {}
+[0.825979] (trunk_head_control) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.902808] (-) TimerEvent: {}
+[1.003418] (-) TimerEvent: {}
+[1.018079] (trunk_head_control) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.103560] (trunk_head_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.103967] (-) TimerEvent: {}
+[1.110335] (trunk_head_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.122006] (trunk_head_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.138840] (trunk_head_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.160948] (trunk_head_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.204089] (-) TimerEvent: {}
+[1.220624] (trunk_head_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.224066] (trunk_head_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.304525] (-) TimerEvent: {}
+[1.341692] (trunk_head_control) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.391455] (trunk_head_control) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.404601] (-) TimerEvent: {}
+[1.453858] (trunk_head_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.465586] (trunk_head_control) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.504788] (-) TimerEvent: {}
+[1.579814] (trunk_head_control) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.580821] (trunk_head_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.604945] (-) TimerEvent: {}
+[1.705169] (trunk_head_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.705844] (-) TimerEvent: {}
+[1.709101] (trunk_head_control) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.806008] (-) TimerEvent: {}
+[1.906541] (-) TimerEvent: {}
+[1.940997] (trunk_head_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.958394] (trunk_head_control) StdoutLine: {'line': b'-- Generating done\n'}
+[1.964943] (trunk_head_control) StdoutLine: {'line': b'-- Build files have been written to: /home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control\n'}
+[1.986981] (trunk_head_control) CommandEnded: {'returncode': 0}
+[1.988926] (trunk_head_control) JobProgress: {'identifier': 'trunk_head_control', 'progress': 'build'}
+[1.991198] (trunk_head_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control', '--', '-j6', '-l6'], 'cwd': '/home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'admin'), ('SSH_CLIENT', '192.168.3.7 60395 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/admin/.vscode-server/cli/servers/Stable-6a44c352bd24569c417e530095901b649960f9f8/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/admin/vsproject/trunk_demo_0.5.1/lib/Linux/aarch64:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('BROWSER', '/home/admin/.vscode-server/cli/servers/Stable-6a44c352bd24569c417e530095901b649960f9f8/server/bin/helpers/browser.sh'), ('LESS', '-R'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/admin'), ('OLDPWD', '/home/admin/vsproject/trunk_demo_0.5.1/build'), ('TERM_PROGRAM_VERSION', '1.123.0'), ('NVM_BIN', '/home/admin/.nvm/versions/node/v24.15.0/bin'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4badbbac-619b-4c69-a243-42b026e2b708.sock'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('NVM_INC', '/home/admin/.nvm/versions/node/v24.15.0/include/node'), ('ZSH', '/home/admin/.oh-my-zsh'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'less'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/admin/.vscode-server/cli/servers/Stable-6a44c352bd24569c417e530095901b649960f9f8/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/admin/.vscode-server/cli/servers/Stable-6a44c352bd24569c417e530095901b649960f9f8/server/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/admin/.nvm'), ('COLCON_PREFIX_PATH', '/home/admin/vsproject/trunk_demo_0.5.1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'admin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda/bin:/home/admin/.vscode-server/cli/servers/Stable-6a44c352bd24569c417e530095901b649960f9f8/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/cuda/bin:/home/admin/.nvm/versions/node/v24.15.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6548294479.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', '302a3ecc-da02-4c26-8ab4-d697ea35b22c'), ('PWD', '/home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.3.7 60395 192.168.3.10 22'), ('NVM_CD_FLAGS', '-q'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control:/opt/ros/humble')]), 'shell': False}
+[2.006650] (-) TimerEvent: {}
+[2.082303] (trunk_head_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/trunk_head_movej_node.dir/src/trunk_head_control.cpp.o\x1b[0m\n'}
+[2.106821] (-) TimerEvent: {}
+[2.207424] (-) TimerEvent: {}
+[2.308053] (-) TimerEvent: {}
+[2.408696] (-) TimerEvent: {}
+[2.509322] (-) TimerEvent: {}
+[2.609960] (-) TimerEvent: {}
+[2.710624] (-) TimerEvent: {}
+[2.811274] (-) TimerEvent: {}
+[2.911918] (-) TimerEvent: {}
+[3.012612] (-) TimerEvent: {}
+[3.113287] (-) TimerEvent: {}
+[3.213969] (-) TimerEvent: {}
+[3.314866] (-) TimerEvent: {}
+[3.415767] (-) TimerEvent: {}
+[3.516453] (-) TimerEvent: {}
+[3.617130] (-) TimerEvent: {}
+[3.717825] (-) TimerEvent: {}
+[3.818518] (-) TimerEvent: {}
+[3.919387] (-) TimerEvent: {}
+[4.020041] (-) TimerEvent: {}
+[4.120731] (-) TimerEvent: {}
+[4.221412] (-) TimerEvent: {}
+[4.322076] (-) TimerEvent: {}
+[4.422756] (-) TimerEvent: {}
+[4.523433] (-) TimerEvent: {}
+[4.624135] (-) TimerEvent: {}
+[4.724810] (-) TimerEvent: {}
+[4.825480] (-) TimerEvent: {}
+[4.926360] (-) TimerEvent: {}
+[5.027019] (-) TimerEvent: {}
+[5.127936] (-) TimerEvent: {}
+[5.228833] (-) TimerEvent: {}
+[5.329505] (-) TimerEvent: {}
+[5.430203] (-) TimerEvent: {}
+[5.530863] (-) TimerEvent: {}
+[5.631542] (-) TimerEvent: {}
+[5.732433] (-) TimerEvent: {}
+[5.833320] (-) TimerEvent: {}
+[5.934213] (-) TimerEvent: {}
+[6.034868] (-) TimerEvent: {}
+[6.135748] (-) TimerEvent: {}
+[6.236641] (-) TimerEvent: {}
+[6.337527] (-) TimerEvent: {}
+[6.438419] (-) TimerEvent: {}
+[6.539097] (-) TimerEvent: {}
+[6.639986] (-) TimerEvent: {}
+[6.740891] (-) TimerEvent: {}
+[6.841782] (-) TimerEvent: {}
+[6.942651] (-) TimerEvent: {}
+[7.043301] (-) TimerEvent: {}
+[7.143977] (-) TimerEvent: {}
+[7.244909] (-) TimerEvent: {}
+[7.345815] (-) TimerEvent: {}
+[7.446711] (-) TimerEvent: {}
+[7.547365] (-) TimerEvent: {}
+[7.648270] (-) TimerEvent: {}
+[7.748941] (-) TimerEvent: {}
+[7.849594] (-) TimerEvent: {}
+[7.950492] (-) TimerEvent: {}
+[8.051161] (-) TimerEvent: {}
+[8.151848] (-) TimerEvent: {}
+[8.252525] (-) TimerEvent: {}
+[8.353185] (-) TimerEvent: {}
+[8.454080] (-) TimerEvent: {}
+[8.554968] (-) TimerEvent: {}
+[8.655625] (-) TimerEvent: {}
+[8.756288] (-) TimerEvent: {}
+[8.856932] (-) TimerEvent: {}
+[8.957823] (-) TimerEvent: {}
+[9.058504] (-) TimerEvent: {}
+[9.159156] (-) TimerEvent: {}
+[9.259819] (-) TimerEvent: {}
+[9.360711] (-) TimerEvent: {}
+[9.461585] (-) TimerEvent: {}
+[9.562242] (-) TimerEvent: {}
+[9.662897] (-) TimerEvent: {}
+[9.763577] (-) TimerEvent: {}
+[9.864237] (-) TimerEvent: {}
+[9.965107] (-) TimerEvent: {}
+[10.065792] (-) TimerEvent: {}
+[10.166450] (-) TimerEvent: {}
+[10.267122] (-) TimerEvent: {}
+[10.367986] (-) TimerEvent: {}
+[10.468866] (-) TimerEvent: {}
+[10.569516] (-) TimerEvent: {}
+[10.670404] (-) TimerEvent: {}
+[10.771287] (-) TimerEvent: {}
+[10.872204] (-) TimerEvent: {}
+[10.973076] (-) TimerEvent: {}
+[11.073959] (-) TimerEvent: {}
+[11.174613] (-) TimerEvent: {}
+[11.275270] (-) TimerEvent: {}
+[11.375946] (-) TimerEvent: {}
+[11.476856] (-) TimerEvent: {}
+[11.577763] (-) TimerEvent: {}
+[11.678661] (-) TimerEvent: {}
+[11.779327] (-) TimerEvent: {}
+[11.880245] (-) TimerEvent: {}
+[11.981142] (-) TimerEvent: {}
+[12.082047] (-) TimerEvent: {}
+[12.182725] (-) TimerEvent: {}
+[12.283393] (-) TimerEvent: {}
+[12.384267] (-) TimerEvent: {}
+[12.484938] (-) TimerEvent: {}
+[12.585824] (-) TimerEvent: {}
+[12.686488] (-) TimerEvent: {}
+[12.787142] (-) TimerEvent: {}
+[12.887808] (-) TimerEvent: {}
+[12.988783] (-) TimerEvent: {}
+[13.089693] (-) TimerEvent: {}
+[13.190359] (-) TimerEvent: {}
+[13.291029] (-) TimerEvent: {}
+[13.391701] (-) TimerEvent: {}
+[13.492394] (-) TimerEvent: {}
+[13.593276] (-) TimerEvent: {}
+[13.693960] (-) TimerEvent: {}
+[13.794617] (-) TimerEvent: {}
+[13.895265] (-) TimerEvent: {}
+[13.995923] (-) TimerEvent: {}
+[14.096603] (-) TimerEvent: {}
+[14.197279] (-) TimerEvent: {}
+[14.297932] (-) TimerEvent: {}
+[14.398576] (-) TimerEvent: {}
+[14.499242] (-) TimerEvent: {}
+[14.599892] (-) TimerEvent: {}
+[14.700541] (-) TimerEvent: {}
+[14.801156] (-) TimerEvent: {}
+[14.901785] (-) TimerEvent: {}
+[15.002425] (-) TimerEvent: {}
+[15.103082] (-) TimerEvent: {}
+[15.203710] (-) TimerEvent: {}
+[15.304352] (-) TimerEvent: {}
+[15.404989] (-) TimerEvent: {}
+[15.505605] (-) TimerEvent: {}
+[15.606225] (-) TimerEvent: {}
+[15.706853] (-) TimerEvent: {}
+[15.807697] (-) TimerEvent: {}
+[15.908321] (-) TimerEvent: {}
+[16.008957] (-) TimerEvent: {}
+[16.109595] (-) TimerEvent: {}
+[16.210218] (-) TimerEvent: {}
+[16.310853] (-) TimerEvent: {}
+[16.411486] (-) TimerEvent: {}
+[16.512127] (-) TimerEvent: {}
+[16.612781] (-) TimerEvent: {}
+[16.713410] (-) TimerEvent: {}
+[16.814256] (-) TimerEvent: {}
+[16.914886] (-) TimerEvent: {}
+[17.015527] (-) TimerEvent: {}
+[17.116159] (-) TimerEvent: {}
+[17.216802] (-) TimerEvent: {}
+[17.317429] (-) TimerEvent: {}
+[17.418045] (-) TimerEvent: {}
+[17.518684] (-) TimerEvent: {}
+[17.619535] (-) TimerEvent: {}
+[17.720160] (-) TimerEvent: {}
+[17.820810] (-) TimerEvent: {}
+[17.921444] (-) TimerEvent: {}
+[18.022069] (-) TimerEvent: {}
+[18.122907] (-) TimerEvent: {}
+[18.223758] (-) TimerEvent: {}
+[18.324393] (-) TimerEvent: {}
+[18.425030] (-) TimerEvent: {}
+[18.525652] (-) TimerEvent: {}
+[18.626271] (-) TimerEvent: {}
+[18.726915] (-) TimerEvent: {}
+[18.827574] (-) TimerEvent: {}
+[18.928203] (-) TimerEvent: {}
+[19.028701] (-) TimerEvent: {}
+[19.129219] (-) TimerEvent: {}
+[19.229680] (-) TimerEvent: {}
+[19.330158] (-) TimerEvent: {}
+[19.430712] (-) TimerEvent: {}
+[19.531229] (-) TimerEvent: {}
+[19.631805] (-) TimerEvent: {}
+[19.732336] (-) TimerEvent: {}
+[19.832989] (-) TimerEvent: {}
+[19.887289] (trunk_head_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable bin/trunk_head_movej_node\x1b[0m\n'}
+[19.933167] (-) TimerEvent: {}
+[20.033846] (-) TimerEvent: {}
+[20.134548] (-) TimerEvent: {}
+[20.235223] (-) TimerEvent: {}
+[20.335841] (-) TimerEvent: {}
+[20.436496] (-) TimerEvent: {}
+[20.537133] (-) TimerEvent: {}
+[20.637748] (-) TimerEvent: {}
+[20.656513] (trunk_head_control) StdoutLine: {'line': b'[100%] Built target trunk_head_movej_node\n'}
+[20.678757] (trunk_head_control) CommandEnded: {'returncode': 0}
+[20.681042] (trunk_head_control) JobProgress: {'identifier': 'trunk_head_control', 'progress': 'install'}
+[20.699396] (trunk_head_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control'], 'cwd': '/home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'admin'), ('SSH_CLIENT', '192.168.3.7 60395 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/admin/.vscode-server/cli/servers/Stable-6a44c352bd24569c417e530095901b649960f9f8/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/admin/vsproject/trunk_demo_0.5.1/lib/Linux/aarch64:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('BROWSER', '/home/admin/.vscode-server/cli/servers/Stable-6a44c352bd24569c417e530095901b649960f9f8/server/bin/helpers/browser.sh'), ('LESS', '-R'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/admin'), ('OLDPWD', '/home/admin/vsproject/trunk_demo_0.5.1/build'), ('TERM_PROGRAM_VERSION', '1.123.0'), ('NVM_BIN', '/home/admin/.nvm/versions/node/v24.15.0/bin'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4badbbac-619b-4c69-a243-42b026e2b708.sock'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('NVM_INC', '/home/admin/.nvm/versions/node/v24.15.0/include/node'), ('ZSH', '/home/admin/.oh-my-zsh'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'less'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/admin/.vscode-server/cli/servers/Stable-6a44c352bd24569c417e530095901b649960f9f8/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/admin/.vscode-server/cli/servers/Stable-6a44c352bd24569c417e530095901b649960f9f8/server/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/admin/.nvm'), ('COLCON_PREFIX_PATH', '/home/admin/vsproject/trunk_demo_0.5.1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'admin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda/bin:/home/admin/.vscode-server/cli/servers/Stable-6a44c352bd24569c417e530095901b649960f9f8/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/cuda/bin:/home/admin/.nvm/versions/node/v24.15.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6548294479.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', '302a3ecc-da02-4c26-8ab4-d697ea35b22c'), ('PWD', '/home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.3.7 60395 192.168.3.10 22'), ('NVM_CD_FLAGS', '-q'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control:/opt/ros/humble')]), 'shell': False}
+[20.716491] (trunk_head_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.716932] (trunk_head_control) StdoutLine: {'line': b'-- Installing: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/lib/trunk_head_control/trunk_head_movej_node\n'}
+[20.724823] (trunk_head_control) StdoutLine: {'line': b'-- Set runtime path of "/home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/lib/trunk_head_control/trunk_head_movej_node" to ""\n'}
+[20.725227] (trunk_head_control) StdoutLine: {'line': b'-- Installing: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/ament_index/resource_index/package_run_dependencies/trunk_head_control\n'}
+[20.725608] (trunk_head_control) StdoutLine: {'line': b'-- Installing: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/ament_index/resource_index/parent_prefix_path/trunk_head_control\n'}
+[20.726009] (trunk_head_control) StdoutLine: {'line': b'-- Installing: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/environment/ament_prefix_path.sh\n'}
+[20.726258] (trunk_head_control) StdoutLine: {'line': b'-- Installing: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/environment/ament_prefix_path.dsv\n'}
+[20.726507] (trunk_head_control) StdoutLine: {'line': b'-- Installing: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/environment/path.sh\n'}
+[20.726736] (trunk_head_control) StdoutLine: {'line': b'-- Installing: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/environment/path.dsv\n'}
+[20.726992] (trunk_head_control) StdoutLine: {'line': b'-- Installing: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/local_setup.bash\n'}
+[20.727266] (trunk_head_control) StdoutLine: {'line': b'-- Installing: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/local_setup.sh\n'}
+[20.727512] (trunk_head_control) StdoutLine: {'line': b'-- Installing: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/local_setup.zsh\n'}
+[20.727758] (trunk_head_control) StdoutLine: {'line': b'-- Installing: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/local_setup.dsv\n'}
+[20.727995] (trunk_head_control) StdoutLine: {'line': b'-- Installing: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/package.dsv\n'}
+[20.728950] (trunk_head_control) StdoutLine: {'line': b'-- Installing: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/ament_index/resource_index/packages/trunk_head_control\n'}
+[20.729264] (trunk_head_control) StdoutLine: {'line': b'-- Installing: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/cmake/trunk_head_controlConfig.cmake\n'}
+[20.729479] (trunk_head_control) StdoutLine: {'line': b'-- Installing: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/cmake/trunk_head_controlConfig-version.cmake\n'}
+[20.729711] (trunk_head_control) StdoutLine: {'line': b'-- Installing: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/package.xml\n'}
+[20.733122] (trunk_head_control) CommandEnded: {'returncode': 0}
+[20.738098] (-) TimerEvent: {}
+[20.790801] (trunk_head_control) JobEnded: {'identifier': 'trunk_head_control', 'rc': 0}
+[20.792494] (-) EventReactorShutdown: {}

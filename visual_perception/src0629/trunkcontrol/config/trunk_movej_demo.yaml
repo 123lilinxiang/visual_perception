@@ -1,0 +1,49 @@
+# trunk_movej_demo 专用配置
+# 用法: ./build/bin/trunk_movej_demo ./config/trunk_movej_demo.yaml
+# 修改建议: 先只改 IP 与 sequences，确认可运行后再调速度
+
+robot:
+  # 躯干机器人控制器 IP
+  trunk_robot_ip: "192.168.71.162"
+
+motion:
+  # MoveJ 推荐速度（数值越大越快）。首次联调建议 100~300
+  trunk_speed: 200.0
+  # 预留加速度字段，当前 demo 仅读取但不使用
+  trunk_acc: 100.0
+  # 动作序列循环次数，>=1
+  loop_count: 1
+  # 角度单位: deg 或 rad
+  # - deg: 下方 trunk/head 按角度填写，程序会自动转弧度
+  # - rad: 下方 trunk/head 需直接填写弧度
+  angle_unit: "deg"
+
+# 关节空间动作序列，单位由 angle_unit 决定
+# 说明:
+# - trunk: 躯干 4 轴目标
+# - head: 头部 2 轴目标
+# - wait_after_ms: 本动作结束后额外等待时间（便于观察）
+# 注意:
+# - 单步改动尽量小，特别是第 2 轴，避免超过机械臂可达范围
+# - 建议保留“回到初始位”动作作为首尾安全点
+sequences:
+  - name: "回到初始位"
+    trunk: [0, -90, 0, 0]
+    head: [0, 0]
+    wait_after_ms: 1000
+
+  - name: "轻微前探"
+    trunk: [-5, -80, 10, 5]
+    head: [5, 10]
+    wait_after_ms: 2000
+
+  - name: "回到初始位"
+    trunk: [0, -90, 0, 0]
+    head: [0, 0]
+    wait_after_ms: 1000
+
+# ros2 topic pub --once /rokae/trunk_head_movej std_msgs/msg/Float64MultiArray \
+# "{data: [-0.08, -1.4, 0.16, 0.08, 0.08,0.16]}"
+
+
+

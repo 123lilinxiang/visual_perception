@@ -1,0 +1,26 @@
+[0.016s] Invoking command in '/home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control -- -j6 -l6
+[0.079s] [35m[1mConsolidate compiler generated dependencies of target trunk_head_movej_node[0m
+[0.117s] [ 50%] [32mBuilding CXX object CMakeFiles/trunk_head_movej_node.dir/src/trunk_head_control.cpp.o[0m
+[18.010s] [100%] [32m[1mLinking CXX executable bin/trunk_head_movej_node[0m
+[18.772s] [100%] Built target trunk_head_movej_node
+[18.794s] Invoked command in '/home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control -- -j6 -l6
+[18.817s] Invoking command in '/home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control
+[18.833s] -- Install configuration: ""
+[18.834s] -- Installing: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/lib/trunk_head_control/trunk_head_movej_node
+[18.843s] -- Set runtime path of "/home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/lib/trunk_head_control/trunk_head_movej_node" to ""
+[18.843s] -- Up-to-date: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/ament_index/resource_index/package_run_dependencies/trunk_head_control
+[18.843s] -- Up-to-date: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/ament_index/resource_index/parent_prefix_path/trunk_head_control
+[18.843s] -- Up-to-date: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/environment/ament_prefix_path.sh
+[18.843s] -- Up-to-date: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/environment/ament_prefix_path.dsv
+[18.844s] -- Up-to-date: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/environment/path.sh
+[18.844s] -- Up-to-date: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/environment/path.dsv
+[18.844s] -- Up-to-date: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/local_setup.bash
+[18.844s] -- Up-to-date: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/local_setup.sh
+[18.844s] -- Up-to-date: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/local_setup.zsh
+[18.844s] -- Up-to-date: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/local_setup.dsv
+[18.844s] -- Installing: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/package.dsv
+[18.845s] -- Up-to-date: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/ament_index/resource_index/packages/trunk_head_control
+[18.845s] -- Up-to-date: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/cmake/trunk_head_controlConfig.cmake
+[18.845s] -- Up-to-date: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/cmake/trunk_head_controlConfig-version.cmake
+[18.845s] -- Up-to-date: /home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control/share/trunk_head_control/package.xml
+[18.848s] Invoked command in '/home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control

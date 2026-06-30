@@ -1,0 +1,570 @@
+[I|2026-06-09 14:14:36.119 5663] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 14:14:36.119 5663] uid: 1edf356b-d4b1 | Connect to 192.168.71.160 from 192.168.71.51
+[I|2026-06-09 14:14:36.206 5663] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 14:14:36.207 5663] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 14:14:36.250 5663] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 14:15:19.491 5663] uid: 1edf356b-d4b1 | Process posture trans:[0, -0.857, 0.001], rpy:[0, 1.5708, -1.5708] , s:20, z:5, js:-1
+[I|2026-06-09 14:15:19.491 5663] uid: 1edf356b-d4b1 | Append cmd l#0
+[I|2026-06-09 14:15:19.539 5663] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 14:15:19.539 5681] uid: 1edf356b-d4b1 | Notified l#0 [0] finish:false (-50102)
+[I|2026-06-09 14:15:50.421 5663] uid: 1edf356b-d4b1 | Process posture trans:[0, -0.857, 0.001], rpy:[0, 1.5708, -1.5708] , s:20, z:5, js:-1
+[I|2026-06-09 14:15:50.421 5663] uid: 1edf356b-d4b1 | Append cmd l#1
+[I|2026-06-09 14:15:50.467 5663] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 14:15:50.467 5681] uid: 1edf356b-d4b1 | Notified l#1 [0] finish:false (-50102)
+[I|2026-06-09 14:17:15.246 6808] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 14:17:15.246 6808] uid: 1edf356b-d4b1 | Connect to 192.168.71.160 from 192.168.71.51
+[I|2026-06-09 14:17:15.339 6808] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 14:17:15.340 6808] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 14:17:15.382 6808] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 14:17:34.732 6808] uid: 1edf356b-d4b1 | Process posture trans:[0.2, -0.857, 0.001], rpy:[0.8, 1.5708, -1.5708] , s:20, z:5, js:-1
+[I|2026-06-09 14:17:34.732 6808] uid: 1edf356b-d4b1 | Append cmd l#0
+[I|2026-06-09 14:17:34.779 6808] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 14:17:34.779 6826] uid: 1edf356b-d4b1 | Notified l#0 [0] finish:false (-50102)
+[I|2026-06-09 14:18:19.792 6808] uid: 1edf356b-d4b1 | Process posture trans:[0.4, -0.857, 0.001], rpy:[0.8, 1.5708, -1.5708] , s:20, z:5, js:-1
+[I|2026-06-09 14:18:19.792 6808] uid: 1edf356b-d4b1 | Append cmd l#1
+[I|2026-06-09 14:18:19.834 6826] uid: 1edf356b-d4b1 | Notified l#1 [0] finish:false (-50102)
+[I|2026-06-09 14:18:19.834 6808] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 14:18:50.055 6808] uid: 1edf356b-d4b1 | Process posture trans:[0, -0.8575, 0.02], rpy:[-2.578, 1.5708, 2.134] , s:20, z:5, js:-1
+[I|2026-06-09 14:18:50.055 6808] uid: 1edf356b-d4b1 | Append cmd l#2
+[I|2026-06-09 14:18:50.099 6808] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 14:18:50.099 6826] uid: 1edf356b-d4b1 | Notified l#2 [0] finish:false (-50102)
+[I|2026-06-09 14:20:47.186 7540] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 14:20:47.186 7540] uid: 1edf356b-d4b1 | Connect to 192.168.71.160 from 192.168.71.51
+[I|2026-06-09 14:20:47.274 7540] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 14:20:47.275 7540] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 14:20:47.318 7540] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 14:20:53.994 7540] uid: 1edf356b-d4b1 | Process posture trans:[0, -0.8575, 0.02], rpy:[-2.578, 1.5708, 2.134] , s:20, z:5, js:-1
+[I|2026-06-09 14:20:53.995 7540] uid: 1edf356b-d4b1 | Append cmd l#0
+[I|2026-06-09 14:20:54.038 7540] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 14:20:54.038 7558] uid: 1edf356b-d4b1 | Notified l#0 [0] finish:false (-50102)
+[I|2026-06-09 14:22:10.689 7540] uid: 1edf356b-d4b1 | Process posture trans:[0, -0.8575, 0.02], rpy:[0.876, 1.5708, -0.6947] , s:20, z:5, js:-1
+[I|2026-06-09 14:22:10.689 7540] uid: 1edf356b-d4b1 | Append cmd l#1
+[I|2026-06-09 14:22:10.734 7540] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 14:22:10.734 7558] uid: 1edf356b-d4b1 | Notified l#1 [0] finish:false (-50102)
+[I|2026-06-09 14:26:02.882 8210] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 14:26:02.883 8210] uid: 1edf356b-d4b1 | Connect to 192.168.71.160 from 192.168.71.51
+[I|2026-06-09 14:26:02.970 8210] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 14:26:02.971 8210] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 14:26:03.014 8210] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 14:26:34.497 8210] uid: 1edf356b-d4b1 | Process posture trans:[0.1, -0.7, 0.02], rpy:[0.876, 1.5708, -0.6947] , s:20, z:5, js:-1
+[I|2026-06-09 14:26:34.497 8210] uid: 1edf356b-d4b1 | Append cmd l#0
+[I|2026-06-09 14:26:34.542 8210] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 14:26:34.543 8228] uid: 1edf356b-d4b1 | Notified l#0 [0] finish:false (-50002)
+[I|2026-06-09 14:28:18.804 8210] uid: 1edf356b-d4b1 | Process posture trans:[0.1, -0.7, 0.02], rpy:[0.876, 1.5708, -0.6947] , s:20, z:5, js:-1
+[I|2026-06-09 14:28:18.804 8210] uid: 1edf356b-d4b1 | Append cmd l#1
+[I|2026-06-09 14:28:18.847 8210] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 14:28:18.847 8228] uid: 1edf356b-d4b1 | Notified l#1 [0] finish:false (-50002)
+[I|2026-06-09 14:30:06.687 8885] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 14:30:06.687 8885] uid: 1edf356b-d4b1 | Connect to 192.168.71.160 from 192.168.71.51
+[I|2026-06-09 14:30:06.774 8885] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 14:30:06.775 8885] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 14:30:06.818 8885] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 14:30:17.571 8885] uid: 1edf356b-d4b1 | Process posture trans:[5.500318644852302e-15, -1.0541137475147195, -0.06792758985180805], rpy:[3.1415902555602946, 1.471176578425673, 1.5707939168169174] , s:20, z:5, js:-1
+[I|2026-06-09 14:30:17.571 8885] uid: 1edf356b-d4b1 | Append cmd l#0
+[I|2026-06-09 14:30:17.614 8885] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 14:30:17.615 8903] uid: 1edf356b-d4b1 | Notified l#0 [0] finish:false (-50102)
+[I|2026-06-09 14:31:51.222 9606] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 14:31:51.222 9606] uid: 1edf356b-d4b1 | Connect to 192.168.71.160 from 192.168.71.51
+[I|2026-06-09 14:31:51.314 9606] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 14:31:51.315 9606] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 14:31:51.358 9606] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 14:31:55.945 9606] uid: 1edf356b-d4b1 | Process posture trans:[3.293112470752411e-08, -1.0541137516136125, -0.0679275247425029], rpy:[-3.1415863285847077, 1.4711765784236486, 1.5708031451087094] , s:20, z:5, js:-1
+[I|2026-06-09 14:31:55.945 9606] uid: 1edf356b-d4b1 | Append cmd l#0
+[I|2026-06-09 14:31:55.991 9606] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 14:31:55.991 9624] uid: 1edf356b-d4b1 | Notified l#0 [0] finish:false (-50102)
+[I|2026-06-09 14:35:13.734 10061] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 14:35:13.734 10061] uid: 1edf356b-d4b1 | Connect to 192.168.71.160 from 192.168.71.51
+[I|2026-06-09 14:35:13.822 10061] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 14:35:13.823 10061] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 14:35:13.866 10061] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 14:35:32.248 10061] uid: 1edf356b-d4b1 | Process posture trans:[-0.20000005764990408, -1.0541137600319244, -0.06792741641757419], rpy:[2.291688998186685, 1.4195441579766919, 0.715203184674951] , s:20, z:5, js:-1
+[I|2026-06-09 14:35:32.248 10061] uid: 1edf356b-d4b1 | Append cmd l#0
+[I|2026-06-09 14:35:32.295 10061] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 14:35:32.295 10079] uid: 1edf356b-d4b1 | Notified l#0 [0] finish:false (-50102)
+[I|2026-06-09 14:37:18.831 10061] uid: 1edf356b-d4b1 | Process posture trans:[-0.19999999258379936, -1.054113738613674, -0.06792767890652658], rpy:[2.2916849067787597, 1.4195431852416007, 0.7151993054130168] , s:20, z:5, js:-1
+[I|2026-06-09 14:37:18.831 10061] uid: 1edf356b-d4b1 | Append cmd l#1
+[I|2026-06-09 14:37:18.875 10079] uid: 1edf356b-d4b1 | Notified l#1 [0] finish:false (-50102)
+[I|2026-06-09 14:37:18.875 10061] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 14:39:02.345 10061] uid: 1edf356b-d4b1 | Process posture trans:[-2.362854651535181e-08, -0.8541137625922044, -0.0629273908020106], rpy:[2.2916846319202264, 1.4195438052767926, 0.7151990304000738] , s:20, z:5, js:-1
+[I|2026-06-09 14:39:02.345 10061] uid: 1edf356b-d4b1 | Append cmd l#2
+[I|2026-06-09 14:39:02.391 10061] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 14:39:02.391 10079] uid: 1edf356b-d4b1 | Notified l#2 [0] finish:false (-50102)
+[I|2026-06-09 14:39:32.603 10061] uid: 1edf356b-d4b1 | Process posture trans:[1.7477087375287532e-08, -0.8541137458272502, 0.032072369165332876], rpy:[2.291689239232328, 1.4195438782396888, 0.715203710884696] , s:20, z:5, js:-1
+[I|2026-06-09 14:39:32.603 10061] uid: 1edf356b-d4b1 | Append cmd l#3
+[I|2026-06-09 14:39:32.647 10061] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 14:39:32.647 10079] uid: 1edf356b-d4b1 | Notified l#3 [0] finish:false (-50102)
+[I|2026-06-09 14:41:03.211 10930] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 14:41:03.211 10930] uid: 1edf356b-d4b1 | Connect to 192.168.71.160 from 192.168.71.51
+[I|2026-06-09 14:41:03.299 10930] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 14:41:03.300 10930] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 14:41:03.346 10930] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 14:41:29.020 10930] uid: 1edf356b-d4b1 | Process posture trans:[-4.937177449533239e-08, -0.8541137646264099, 0.03207262955031308], rpy:[2.2916816143240353, 1.4195436033688424, 0.715195735501846] , s:20, z:5, js:-1
+[I|2026-06-09 14:41:29.020 10930] uid: 1edf356b-d4b1 | Append cmd l#0
+[I|2026-06-09 14:41:29.066 10930] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 14:41:29.067 10948] uid: 1edf356b-d4b1 | Notified l#0 [0] finish:false (-50102)
+[I|2026-06-09 14:45:13.831 11391] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 14:45:13.831 11391] uid: 1edf356b-d4b1 | Connect to 192.168.71.160 from 192.168.71.51
+[I|2026-06-09 14:45:13.922 11391] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 14:45:13.923 11391] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 14:45:13.970 11391] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 14:45:17.700 11391] uid: 1edf356b-d4b1 | Process posture trans:[-4.513024017580313e-08, -0.854113783051504, 0.03207281389396284], rpy:[2.2916840703225554, 1.4195451018319691, 0.7151984653369211] , s:20, z:5, js:-1
+[I|2026-06-09 14:45:17.700 11391] uid: 1edf356b-d4b1 | Append cmd l#0
+[I|2026-06-09 14:45:17.747 11409] uid: 1edf356b-d4b1 | Notified l#0 [0] finish:false (-50102)
+[I|2026-06-09 14:45:17.747 11391] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 15:22:29.003 17626] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 15:22:29.003 17626] uid: 1edf356b-d4b1 | Connect to 192.168.71.160 from 192.168.71.51
+[I|2026-06-09 15:22:29.095 17626] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 15:22:29.096 17626] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 15:22:29.138 17626] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 15:22:37.180 17626] uid: 1edf356b-d4b1 | Process posture trans:[0.3446093123907063, -0.559282074464156, -0.2729061852268755], rpy:[2.355849468870172, 0.14145251242594883, 1.3896955053708602] , s:20, z:5, js:-1
+[I|2026-06-09 15:22:37.180 17626] uid: 1edf356b-d4b1 | Append cmd l#0
+[I|2026-06-09 15:22:37.227 17626] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 15:22:45.533 17644] uid: 1edf356b-d4b1 | Notified l#0 [0] finish:true (0)
+[I|2026-06-09 15:23:04.023 17626] uid: 1edf356b-d4b1 | Process posture trans:[0.3446092427326211, -0.45928204778699955, -0.17290626272332985], rpy:[2.355850053355981, 0.14145217478900135, 1.3896960012992985] , s:20, z:5, js:-1
+[I|2026-06-09 15:23:04.023 17626] uid: 1edf356b-d4b1 | Append cmd l#1
+[I|2026-06-09 15:23:04.066 17626] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 15:23:15.673 17644] uid: 1edf356b-d4b1 | Notified l#1 [0] finish:true (0)
+[I|2026-06-09 15:25:07.639 18194] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 15:25:07.639 18194] uid: 1edf356b-d4b1 | Connect to 192.168.71.160 from 192.168.71.51
+[I|2026-06-09 15:25:07.727 18194] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 15:25:07.727 18194] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 15:25:07.771 18194] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 15:25:15.950 18194] uid: 1edf356b-d4b1 | Process posture trans:[0, -0.857, 0.001], rpy:[0, 1.5708, -1.5708] , s:50, z:5, js:-1
+[I|2026-06-09 15:25:15.950 18194] uid: 1edf356b-d4b1 | Append cmd l#0
+[I|2026-06-09 15:25:15.994 18212] uid: 1edf356b-d4b1 | Notified l#0 [0] finish:false (-50102)
+[I|2026-06-09 15:25:15.995 18194] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 15:30:41.515 18194] uid: 1edf356b-d4b1 | Process posture trans:[0.344609, -0.559282, -0.172906], rpy:[2.356194490192345, 0, 1.3962634015954636] , s:50, z:5, js:-1
+[I|2026-06-09 15:30:41.515 18194] uid: 1edf356b-d4b1 | Append cmd l#1
+[I|2026-06-09 15:30:41.559 18194] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 15:30:45.103 18212] uid: 1edf356b-d4b1 | Notified l#1 [0] finish:true (0)
+[I|2026-06-09 15:30:56.593 18194] uid: 1edf356b-d4b1 | Process posture trans:[0.444609, -0.559282, -0.172906], rpy:[2.356194490192345, 0, 1.3962634015954636] , s:50, z:5, js:-1
+[I|2026-06-09 15:30:56.593 18194] uid: 1edf356b-d4b1 | Append cmd l#2
+[I|2026-06-09 15:30:56.642 18194] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 15:31:00.185 18212] uid: 1edf356b-d4b1 | Notified l#2 [0] finish:true (0)
+[I|2026-06-09 15:31:12.985 18194] uid: 1edf356b-d4b1 | Process posture trans:[0.444609, -0.559282, -0.172906], rpy:[2.356194490192345, 1, 1.3962634015954636] , s:50, z:5, js:-1
+[I|2026-06-09 15:31:12.985 18194] uid: 1edf356b-d4b1 | Append cmd l#3
+[I|2026-06-09 15:31:13.030 18194] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 15:31:13.797 18212] uid: 1edf356b-d4b1 | Notified l#3 [0] finish:true (0)
+[I|2026-06-09 15:32:53.674 18194] uid: 1edf356b-d4b1 | Process posture trans:[0.444609, -0.559282, -0.172906], rpy:[2.356194490192345, 1, 1.3962634015954636] , s:50, z:5, js:-1
+[I|2026-06-09 15:32:53.674 18194] uid: 1edf356b-d4b1 | Append cmd l#4
+[I|2026-06-09 15:32:53.718 18212] uid: 1edf356b-d4b1 | Notified l#4 [0] finish:true (0)
+[I|2026-06-09 15:32:53.718 18194] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 15:33:24.005 18194] uid: 1edf356b-d4b1 | Process posture trans:[0.444609, -0.559282, 0.172906], rpy:[2.356194490192345, 1, 1.3962634015954636] , s:50, z:5, js:-1
+[I|2026-06-09 15:33:24.005 18194] uid: 1edf356b-d4b1 | Append cmd l#5
+[I|2026-06-09 15:33:24.051 18194] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 15:33:24.051 18212] uid: 1edf356b-d4b1 | Notified l#5 [0] finish:false (-50002)
+[I|2026-06-09 15:33:54.323 18194] uid: 1edf356b-d4b1 | Process posture trans:[0.444609, -0.559282, -0.272906], rpy:[2.356194490192345, 1, 1.3962634015954636] , s:50, z:5, js:-1
+[I|2026-06-09 15:33:54.323 18194] uid: 1edf356b-d4b1 | Append cmd l#6
+[I|2026-06-09 15:33:54.367 18194] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 15:33:57.916 18212] uid: 1edf356b-d4b1 | Notified l#6 [0] finish:true (0)
+[I|2026-06-09 15:33:57.949 18194] uid: 1edf356b-d4b1 | Process posture trans:[0.444609, -0.559282, -0.172906], rpy:[2.356194490192345, 0, 1.3962634015954636] , s:50, z:5, js:-1
+[I|2026-06-09 15:33:57.949 18194] uid: 1edf356b-d4b1 | Append cmd l#7
+[I|2026-06-09 15:33:57.995 18194] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 15:34:01.538 18212] uid: 1edf356b-d4b1 | Notified l#7 [0] finish:true (0)
+[I|2026-06-09 15:34:14.895 18194] uid: 1edf356b-d4b1 | Process posture trans:[0.444609, -0.559282, -0.172906], rpy:[2.356194490192345, 1, 1.3962634015954636] , s:50, z:5, js:-1
+[I|2026-06-09 15:34:14.895 18194] uid: 1edf356b-d4b1 | Append cmd l#8
+[I|2026-06-09 15:34:14.938 18194] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 15:34:15.709 18212] uid: 1edf356b-d4b1 | Notified l#8 [0] finish:true (0)
+[I|2026-06-09 15:35:09.785 18194] uid: 1edf356b-d4b1 | Process posture trans:[0.444609, -0.559282, -0.172906], rpy:[2.356194490192345, 1, 1.3962634015954636] , s:50, z:5, js:-1
+[I|2026-06-09 15:35:09.785 18194] uid: 1edf356b-d4b1 | Append cmd l#9
+[I|2026-06-09 15:35:09.831 18194] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 15:35:09.831 18212] uid: 1edf356b-d4b1 | Notified l#9 [0] finish:true (0)
+[I|2026-06-09 15:35:40.134 18194] uid: 1edf356b-d4b1 | Process posture trans:[0.444609, -0.559282, -0.172906], rpy:[2.356194490192345, 0, 1.3962634015954636] , s:50, z:5, js:-1
+[I|2026-06-09 15:35:40.134 18194] uid: 1edf356b-d4b1 | Append cmd l#10
+[I|2026-06-09 15:35:40.178 18194] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 15:35:40.943 18212] uid: 1edf356b-d4b1 | Notified l#10 [0] finish:true (0)
+[I|2026-06-09 15:37:04.402 19901] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 15:37:04.402 19901] uid: 1edf356b-d4b1 | Connect to 192.168.71.160 from 192.168.71.51
+[I|2026-06-09 15:37:04.494 19901] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 15:37:04.495 19901] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 15:37:04.538 19901] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 15:37:19.337 19901] uid: 1edf356b-d4b1 | Process posture trans:[0.344609, -0.559282, -0.172906], rpy:[2.356194490192345, 0, 1.3962634015954636] , s:50, z:5, js:-1
+[I|2026-06-09 15:37:19.337 19901] uid: 1edf356b-d4b1 | Append cmd l#0
+[I|2026-06-09 15:37:19.383 19901] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 15:37:22.923 19919] uid: 1edf356b-d4b1 | Notified l#0 [0] finish:true (0)
+[I|2026-06-09 15:37:33.750 19901] uid: 1edf356b-d4b1 | Process posture trans:[0.344609, -0.559282, -0.172906], rpy:[2.356194490192345, 1, 1.3962634015954636] , s:50, z:5, js:-1
+[I|2026-06-09 15:37:33.750 19901] uid: 1edf356b-d4b1 | Append cmd l#1
+[I|2026-06-09 15:37:33.794 19901] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 15:37:34.565 19919] uid: 1edf356b-d4b1 | Notified l#1 [0] finish:true (0)
+[I|2026-06-09 15:37:49.365 19901] uid: 1edf356b-d4b1 | Process posture trans:[0.344609, -0.559282, -0.102906], rpy:[2.356194490192345, 0, 1.3962634015954636] , s:50, z:5, js:-1
+[I|2026-06-09 15:37:49.365 19901] uid: 1edf356b-d4b1 | Append cmd l#2
+[I|2026-06-09 15:37:49.410 19901] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 15:37:51.997 19919] uid: 1edf356b-d4b1 | Notified l#2 [0] finish:true (0)
+[I|2026-06-09 16:00:39.590 20612] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 16:00:39.591 20612] uid: 1edf356b-d4b1 | Connect to 192.168.71.161 from 192.168.71.51
+[I|2026-06-09 16:00:39.679 20612] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 16:00:39.680 20612] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 16:00:39.723 20612] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 16:01:37.058 20638] uid: 1edf356b-d4b1 | Process posture trans:[0.344609, -0.559282, -0.172906], rpy:[2.356194490192345, 0, 1.3962634015954636] , s:50, z:5, js:-1
+[I|2026-06-09 16:01:37.058 20638] uid: 1edf356b-d4b1 | Append cmd l#1
+[I|2026-06-09 16:01:37.106 20638] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 16:01:37.106 20637] uid: 1edf356b-d4b1 | Notified l#1 [0] finish:false (-50102)
+[I|2026-06-09 16:02:28.217 20641] uid: 1edf356b-d4b1 | Process posture trans:[0.344609, -0.559282, -0.172906], rpy:[2.356194490192345, 0, 1.3962634015954636] , s:50, z:5, js:-1
+[I|2026-06-09 16:02:28.217 20641] uid: 1edf356b-d4b1 | Append cmd l#4
+[I|2026-06-09 16:02:28.263 20641] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 16:02:28.263 20637] uid: 1edf356b-d4b1 | Notified l#4 [0] finish:false (-50102)
+[I|2026-06-09 16:00:39.403 20612] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 16:00:39.403 20612] uid: 1edf356b-d4b1 | Connect to 192.168.71.160 from 192.168.71.51
+[I|2026-06-09 16:00:39.490 20612] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 16:00:39.491 20612] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 16:00:39.534 20612] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 16:01:14.665 20640] uid: 1edf356b-d4b1 | Process posture trans:[0.344609, -0.559282, -0.172906], rpy:[2.356194490192345, 0, 1.3962634015954636] , s:50, z:5, js:-1
+[I|2026-06-09 16:01:14.665 20640] uid: 1edf356b-d4b1 | Append cmd l#0
+[I|2026-06-09 16:01:14.711 20640] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 16:01:17.293 20630] uid: 1edf356b-d4b1 | Notified l#0 [0] finish:true (0)
+[I|2026-06-09 16:02:08.298 20640] uid: 1edf356b-d4b1 | Process posture trans:[0.344609, -0.559282, -0.172906], rpy:[2.356194490192345, 1, 1.3962634015954636] , s:50, z:5, js:-1
+[I|2026-06-09 16:02:08.298 20640] uid: 1edf356b-d4b1 | Append cmd l#2
+[I|2026-06-09 16:02:08.342 20640] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 16:02:09.115 20630] uid: 1edf356b-d4b1 | Notified l#2 [0] finish:true (0)
+[I|2026-06-09 16:02:22.047 20642] uid: 1edf356b-d4b1 | Process posture trans:[0.344609, -0.559282, -0.172906], rpy:[2.356194490192345, 0, 1.3962634015954636] , s:50, z:5, js:-1
+[I|2026-06-09 16:02:22.047 20642] uid: 1edf356b-d4b1 | Append cmd l#3
+[I|2026-06-09 16:02:22.091 20642] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 16:02:22.862 20630] uid: 1edf356b-d4b1 | Notified l#3 [0] finish:true (0)
+[I|2026-06-09 16:09:10.586 21698] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 16:09:10.586 21698] uid: 1edf356b-d4b1 | Connect to 192.168.71.161 from 192.168.71.51
+[I|2026-06-09 16:09:10.674 21698] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 16:09:10.675 21698] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 16:09:10.718 21698] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 16:09:10.399 21698] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 16:09:10.399 21698] uid: 1edf356b-d4b1 | Connect to 192.168.71.160 from 192.168.71.51
+[I|2026-06-09 16:09:10.486 21698] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 16:09:10.487 21698] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 16:09:10.531 21698] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 16:13:48.706 21726] uid: 1edf356b-d4b1 | Process posture trans:[0.1, 0.835, -0.172906], rpy:[2.356194490192345, 1.2566370614359172, 0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 16:13:48.706 21726] uid: 1edf356b-d4b1 | Append cmd l#0
+[I|2026-06-09 16:13:48.750 21726] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 16:13:48.751 21716] uid: 1edf356b-d4b1 | Notified l#0 [0] finish:false (-50002)
+[I|2026-06-09 16:14:50.579 22247] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 16:14:50.579 22247] uid: 1edf356b-d4b1 | Connect to 192.168.71.161 from 192.168.71.51
+[I|2026-06-09 16:14:50.667 22247] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 16:14:50.667 22247] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 16:14:50.710 22247] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 16:15:14.215 22277] uid: 1edf356b-d4b1 | Process posture trans:[0.344609, -0.559282, -0.172906], rpy:[2.356194490192345, 0, 1.3962634015954636] , s:50, z:5, js:-1
+[I|2026-06-09 16:15:14.215 22277] uid: 1edf356b-d4b1 | Append cmd l#1
+[I|2026-06-09 16:15:14.258 22277] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 16:15:14.258 22272] uid: 1edf356b-d4b1 | Notified l#1 [0] finish:false (-50002)
+[I|2026-06-09 16:15:44.548 22275] uid: 1edf356b-d4b1 | Process posture trans:[0.344609, -0.559282, -0.172906], rpy:[2.356194490192345, 1, 1.3962634015954636] , s:50, z:5, js:-1
+[I|2026-06-09 16:15:44.548 22275] uid: 1edf356b-d4b1 | Append cmd l#2
+[I|2026-06-09 16:15:44.590 22275] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 16:15:44.591 22272] uid: 1edf356b-d4b1 | Notified l#2 [0] finish:false (-50002)
+[I|2026-06-09 16:14:50.390 22247] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 16:14:50.390 22247] uid: 1edf356b-d4b1 | Connect to 192.168.71.160 from 192.168.71.51
+[I|2026-06-09 16:14:50.478 22247] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 16:14:50.479 22247] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 16:14:50.522 22247] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 16:15:00.363 22276] uid: 1edf356b-d4b1 | Process posture trans:[0, 0.835, -0.172906], rpy:[2.356194490192345, 1.2566370614359172, 0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 16:15:00.363 22276] uid: 1edf356b-d4b1 | Append cmd l#0
+[I|2026-06-09 16:15:00.407 22265] uid: 1edf356b-d4b1 | Notified l#0 [0] finish:false (-50002)
+[I|2026-06-09 16:15:00.407 22276] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 16:17:06.839 22974] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 16:17:06.839 22974] uid: 1edf356b-d4b1 | Connect to 192.168.71.161 from 192.168.71.51
+[I|2026-06-09 16:17:06.927 22974] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 16:17:06.928 22974] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 16:17:06.971 22974] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 16:17:23.604 23004] uid: 1edf356b-d4b1 | Process posture trans:[0, 0.835, -0.172906], rpy:[2.356194490192345, 1.2566370614359172, 0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 16:17:23.604 23004] uid: 1edf356b-d4b1 | Append cmd l#1
+[I|2026-06-09 16:17:23.646 23004] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 16:17:23.647 22999] uid: 1edf356b-d4b1 | Notified l#1 [0] finish:false (-50102)
+[I|2026-06-09 16:17:53.928 23003] uid: 1edf356b-d4b1 | Process posture trans:[0.1, 0.835, -0.172906], rpy:[2.356194490192345, 1.2566370614359172, 0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 16:17:53.928 23003] uid: 1edf356b-d4b1 | Append cmd l#2
+[I|2026-06-09 16:17:53.975 23003] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 16:17:53.975 22999] uid: 1edf356b-d4b1 | Notified l#2 [0] finish:false (-50102)
+[I|2026-06-09 16:18:28.204 23000] uid: 1edf356b-d4b1 | Process posture trans:[0, 0.835, -0.172906], rpy:[-2.356194490192345, 1.2566370614359172, -0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 16:18:28.204 23000] uid: 1edf356b-d4b1 | Append cmd l#3
+[I|2026-06-09 16:18:28.247 23000] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 16:18:28.247 22999] uid: 1edf356b-d4b1 | Notified l#3 [0] finish:false (-50102)
+[I|2026-06-09 16:18:58.568 23002] uid: 1edf356b-d4b1 | Process posture trans:[0.1, 0.835, -0.172906], rpy:[-2.356194490192345, 1.2566370614359172, -0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 16:18:58.568 23002] uid: 1edf356b-d4b1 | Append cmd l#4
+[I|2026-06-09 16:18:58.610 23002] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 16:18:58.610 22999] uid: 1edf356b-d4b1 | Notified l#4 [0] finish:false (-50102)
+[I|2026-06-09 16:19:45.091 23000] uid: 1edf356b-d4b1 | Process posture trans:[0.2, 0.835, -0.172906], rpy:[-2.356194490192345, 1.2566370614359172, -0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 16:19:45.091 23000] uid: 1edf356b-d4b1 | Append cmd l#5
+[I|2026-06-09 16:19:45.134 22999] uid: 1edf356b-d4b1 | Notified l#5 [0] finish:false (-50102)
+[I|2026-06-09 16:19:45.135 23000] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 16:17:06.646 22974] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 16:17:06.646 22974] uid: 1edf356b-d4b1 | Connect to 192.168.71.160 from 192.168.71.51
+[I|2026-06-09 16:17:06.738 22974] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 16:17:06.739 22974] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 16:17:06.782 22974] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 16:17:15.107 23002] uid: 1edf356b-d4b1 | Process posture trans:[0.344609, -0.559282, -0.172906], rpy:[2.356194490192345, 1, 1.3962634015954636] , s:50, z:5, js:-1
+[I|2026-06-09 16:17:15.107 23002] uid: 1edf356b-d4b1 | Append cmd l#0
+[I|2026-06-09 16:17:15.154 23002] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 16:17:15.923 22992] uid: 1edf356b-d4b1 | Notified l#0 [0] finish:true (0)
+[I|2026-06-09 16:22:08.227 24084] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 16:22:08.227 24084] uid: 1edf356b-d4b1 | Connect to 192.168.71.161 from 192.168.71.51
+[I|2026-06-09 16:22:08.314 24084] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 16:22:08.315 24084] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 16:22:08.359 24084] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 16:22:08.039 24084] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 16:22:08.039 24084] uid: 1edf356b-d4b1 | Connect to 192.168.71.160 from 192.168.71.51
+[I|2026-06-09 16:22:08.127 24084] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 16:22:08.128 24084] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 16:22:08.171 24084] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 16:23:49.131 24405] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 16:23:49.131 24405] uid: 1edf356b-d4b1 | Connect to 192.168.71.161 from 192.168.71.51
+[I|2026-06-09 16:23:49.222 24405] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 16:23:49.223 24405] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 16:23:49.266 24405] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 16:24:10.458 24431] uid: 1edf356b-d4b1 | Process posture trans:[0.2, 0.835, -0.172906], rpy:[-2.356194490192345, 1.2566370614359172, -0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 16:24:10.458 24431] uid: 1edf356b-d4b1 | Append cmd l#0
+[I|2026-06-09 16:24:10.502 24431] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 16:24:10.503 24430] uid: 1edf356b-d4b1 | Notified l#0 [0] finish:false (-50102)
+[I|2026-06-09 16:25:06.252 24431] uid: 1edf356b-d4b1 | Process posture trans:[0.2, 0.835, -0.172906], rpy:[-2.356194490192345, 1.2566370614359172, -0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 16:25:06.252 24431] uid: 1edf356b-d4b1 | Append cmd l#2
+[I|2026-06-09 16:25:06.295 24430] uid: 1edf356b-d4b1 | Notified l#2 [0] finish:false (-50102)
+[I|2026-06-09 16:25:06.295 24431] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 16:23:48.939 24405] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 16:23:48.939 24405] uid: 1edf356b-d4b1 | Connect to 192.168.71.160 from 192.168.71.51
+[I|2026-06-09 16:23:49.031 24405] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 16:23:49.031 24405] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 16:23:49.075 24405] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 16:24:35.269 24405] uid: 1edf356b-d4b1 | Process posture trans:[0.344609, -0.559282, -0.272906], rpy:[2.356194490192345, 1, 1.3962634015954636] , s:50, z:5, js:-1
+[I|2026-06-09 16:24:35.269 24405] uid: 1edf356b-d4b1 | Append cmd l#1
+[I|2026-06-09 16:24:35.314 24405] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 16:24:38.856 24423] uid: 1edf356b-d4b1 | Notified l#1 [0] finish:true (0)
+[I|2026-06-09 16:29:00.426 25240] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 16:29:00.426 25240] uid: 1edf356b-d4b1 | Connect to 192.168.71.161 from 192.168.71.51
+[I|2026-06-09 16:29:00.515 25240] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 16:29:00.515 25240] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 16:29:00.559 25240] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 16:31:22.249 25266] uid: 1edf356b-d4b1 | Process posture trans:[0, 0.835, -0.172906], rpy:[-2.5656340004316642, 1.2566370614359172, -0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 16:31:22.250 25266] uid: 1edf356b-d4b1 | Append cmd l#0
+[I|2026-06-09 16:31:22.295 25266] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 16:31:22.295 25265] uid: 1edf356b-d4b1 | Notified l#0 [0] finish:false (-50102)
+[I|2026-06-09 16:29:00.234 25240] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 16:29:00.234 25240] uid: 1edf356b-d4b1 | Connect to 192.168.71.160 from 192.168.71.51
+[I|2026-06-09 16:29:00.322 25240] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 16:29:00.323 25240] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 16:29:00.366 25240] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 16:49:51.626 25910] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 16:49:51.626 25910] uid: 1edf356b-d4b1 | Connect to 192.168.71.161 from 192.168.71.51
+[I|2026-06-09 16:49:51.714 25910] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 16:49:51.715 25910] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 16:49:51.759 25910] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 16:50:01.984 25939] uid: 1edf356b-d4b1 | Process posture trans:[0, 0.835, -0.172906], rpy:[-2.5656340004316642, 1.2566370614359172, -0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 16:50:01.984 25939] uid: 1edf356b-d4b1 | Append cmd l#0
+[I|2026-06-09 16:50:02.026 25939] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 16:50:32.694 25935] uid: 1edf356b-d4b1 | Notified l#0 [0] finish:true (0)
+[I|2026-06-09 16:50:47.393 25936] uid: 1edf356b-d4b1 | Process posture trans:[0.2, 0.835, -0.172906], rpy:[-2.5656340004316642, 1.2566370614359172, -0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 16:50:47.393 25936] uid: 1edf356b-d4b1 | Append cmd l#1
+[I|2026-06-09 16:50:47.438 25936] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 16:50:47.438 25935] uid: 1edf356b-d4b1 | Notified l#1 [0] finish:false (-50102)
+[I|2026-06-09 16:51:23.471 25938] uid: 1edf356b-d4b1 | Process posture trans:[0, 0.835, -0.272906], rpy:[-2.5656340004316642, 1.2566370614359172, -0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 16:51:23.471 25938] uid: 1edf356b-d4b1 | Append cmd l#2
+[I|2026-06-09 16:51:23.514 25938] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 16:51:23.515 25935] uid: 1edf356b-d4b1 | Notified l#2 [0] finish:false (-50102)
+[I|2026-06-09 16:51:53.785 25936] uid: 1edf356b-d4b1 | Process posture trans:[0, 0.835, -0.172906], rpy:[-2.5656340004316642, 1.2566370614359172, 0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 16:51:53.785 25936] uid: 1edf356b-d4b1 | Append cmd l#3
+[I|2026-06-09 16:51:53.830 25936] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 16:51:53.830 25935] uid: 1edf356b-d4b1 | Notified l#3 [0] finish:false (-50102)
+[I|2026-06-09 16:52:24.100 25937] uid: 1edf356b-d4b1 | Process posture trans:[0, 0.835, -0.172906], rpy:[-2.5656340004316642, 1.2566370614359172, -0.5] , s:50, z:5, js:-1
+[I|2026-06-09 16:52:24.101 25937] uid: 1edf356b-d4b1 | Append cmd l#4
+[I|2026-06-09 16:52:24.146 25937] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 16:52:24.146 25935] uid: 1edf356b-d4b1 | Notified l#4 [0] finish:false (-50102)
+[I|2026-06-09 16:52:54.429 25939] uid: 1edf356b-d4b1 | Process posture trans:[0, 0.835, -0.172906], rpy:[-2, 1, 1] , s:50, z:5, js:-1
+[I|2026-06-09 16:52:54.429 25939] uid: 1edf356b-d4b1 | Append cmd l#5
+[I|2026-06-09 16:52:54.474 25939] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 16:52:54.475 25935] uid: 1edf356b-d4b1 | Notified l#5 [0] finish:false (-50102)
+[I|2026-06-09 16:53:24.724 25936] uid: 1edf356b-d4b1 | Process posture trans:[0, 0.835, -0.172906], rpy:[-2, 1, -1] , s:50, z:5, js:-1
+[I|2026-06-09 16:53:24.724 25936] uid: 1edf356b-d4b1 | Append cmd l#6
+[I|2026-06-09 16:53:24.766 25936] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 16:53:24.766 25935] uid: 1edf356b-d4b1 | Notified l#6 [0] finish:false (-50102)
+[I|2026-06-09 16:49:51.434 25910] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 16:49:51.435 25910] uid: 1edf356b-d4b1 | Connect to 192.168.71.160 from 192.168.71.51
+[I|2026-06-09 16:49:51.527 25910] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 16:49:51.527 25910] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 16:49:51.570 25910] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 16:56:47.871 27266] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 16:56:47.871 27266] uid: 1edf356b-d4b1 | Connect to 192.168.71.161 from 192.168.71.51
+[I|2026-06-09 16:56:47.962 27266] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 16:56:47.963 27266] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 16:56:48.006 27266] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 16:57:03.821 27296] uid: 1edf356b-d4b1 | Process posture trans:[0, 0.835, -0.172906], rpy:[-2.5656340004316642, 1.2566370614359172, 0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 16:57:03.821 27296] uid: 1edf356b-d4b1 | Append cmd l#0
+[I|2026-06-09 16:57:03.867 27296] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 16:57:03.867 27291] uid: 1edf356b-d4b1 | Notified l#0 [0] finish:false (-50102)
+[I|2026-06-09 16:56:47.682 27266] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 16:56:47.682 27266] uid: 1edf356b-d4b1 | Connect to 192.168.71.160 from 192.168.71.51
+[I|2026-06-09 16:56:47.770 27266] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 16:56:47.771 27266] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 16:56:47.814 27266] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 16:58:20.931 27674] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 16:58:20.931 27674] uid: 1edf356b-d4b1 | Connect to 192.168.71.161 from 192.168.71.51
+[I|2026-06-09 16:58:21.018 27674] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 16:58:21.019 27674] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 16:58:21.062 27674] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 16:58:21.109 27674] uid: 1edf356b-d4b1 | Process posture trans:[0, 0.835, -0.172906], rpy:[-2.5656340004316642, 1.2566370614359172, -0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 16:58:21.109 27674] uid: 1edf356b-d4b1 | Append cmd l#0
+[I|2026-06-09 16:58:21.155 27674] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 16:58:23.645 27710] uid: 1edf356b-d4b1 | Notified l#0 [0] finish:true (0)
+[I|2026-06-09 16:59:06.091 27712] uid: 1edf356b-d4b1 | Process posture trans:[-0.037, 0.8, -0.2], rpy:[-2.5656340004316642, 1.2566370614359172, -0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 16:59:06.091 27712] uid: 1edf356b-d4b1 | Append cmd l#1
+[I|2026-06-09 16:59:06.135 27712] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 16:59:08.434 27710] uid: 1edf356b-d4b1 | Notified l#1 [0] finish:true (0)
+[I|2026-06-09 16:59:31.468 27711] uid: 1edf356b-d4b1 | Process posture trans:[0, 0.835, -0.172906], rpy:[-2.5656340004316642, 1.2566370614359172, -0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 16:59:31.468 27711] uid: 1edf356b-d4b1 | Append cmd l#2
+[I|2026-06-09 16:59:31.510 27711] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 16:59:33.845 27710] uid: 1edf356b-d4b1 | Notified l#2 [0] finish:true (0)
+[I|2026-06-09 16:59:37.927 27715] uid: 1edf356b-d4b1 | Process posture trans:[-0.037, 0.8, -0.2], rpy:[-2.5656340004316642, 1.2566370614359172, -0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 16:59:37.927 27715] uid: 1edf356b-d4b1 | Append cmd l#3
+[I|2026-06-09 16:59:37.971 27715] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 16:59:40.269 27710] uid: 1edf356b-d4b1 | Notified l#3 [0] finish:true (0)
+[I|2026-06-09 16:58:20.743 27674] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 16:58:20.743 27674] uid: 1edf356b-d4b1 | Connect to 192.168.71.160 from 192.168.71.51
+[I|2026-06-09 16:58:20.830 27674] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 16:58:20.831 27674] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 16:58:20.874 27674] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 17:49:05.031 30090] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 17:49:05.031 30090] uid: 1edf356b-d4b1 | Connect to 192.168.71.161 from 192.168.71.51
+[I|2026-06-09 17:49:05.119 30090] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 17:49:05.119 30090] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 17:49:05.163 30090] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 17:49:25.480 30090] uid: 1edf356b-d4b1 | Process posture trans:[-0.037, 0.8, -0.2], rpy:[-2.5656340004316642, 1.2566370614359172, -0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 17:49:25.480 30090] uid: 1edf356b-d4b1 | Append cmd l#0
+[I|2026-06-09 17:49:25.523 30090] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 17:49:25.523 30115] uid: 1edf356b-d4b1 | Notified l#0 [0] finish:true (0)
+[I|2026-06-09 17:49:04.842 30090] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 17:49:04.842 30090] uid: 1edf356b-d4b1 | Connect to 192.168.71.160 from 192.168.71.51
+[I|2026-06-09 17:49:04.930 30090] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 17:49:04.931 30090] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 17:49:04.974 30090] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 17:59:19.299 32314] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 17:59:19.299 32314] uid: 1edf356b-d4b1 | Connect to 192.168.71.161 from 192.168.71.51
+[I|2026-06-09 17:59:19.386 32314] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 17:59:19.387 32314] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 17:59:19.430 32314] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 17:59:29.633 32340] uid: 1edf356b-d4b1 | Process posture trans:[-0.037, 0.8, -0.2], rpy:[-2.5656340004316642, 1.2566370614359172, -0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 17:59:29.633 32340] uid: 1edf356b-d4b1 | Append cmd l#0
+[I|2026-06-09 17:59:29.678 32340] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 17:59:30.177 32339] uid: 1edf356b-d4b1 | Notified l#0 [0] finish:true (0)
+[I|2026-06-09 17:59:42.360 32342] uid: 1edf356b-d4b1 | Process posture trans:[-0.037, 0.8, -0.2], rpy:[-2.5656340004316642, 1.2566370614359172, -0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 17:59:42.360 32342] uid: 1edf356b-d4b1 | Append cmd l#1
+[I|2026-06-09 17:59:42.406 32339] uid: 1edf356b-d4b1 | Notified l#1 [0] finish:true (0)
+[I|2026-06-09 17:59:42.406 32342] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 18:00:12.678 32343] uid: 1edf356b-d4b1 | Process posture trans:[0, 0.8, -0.2], rpy:[-2.5656340004316642, 1.2566370614359172, -0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 18:00:12.678 32343] uid: 1edf356b-d4b1 | Append cmd l#2
+[I|2026-06-09 18:00:12.723 32343] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 18:00:14.315 32339] uid: 1edf356b-d4b1 | Notified l#2 [0] finish:true (0)
+[I|2026-06-09 18:00:32.145 32314] uid: 1edf356b-d4b1 | Process posture trans:[0, 0.8, -0.2], rpy:[-2.5656340004316642, 1.2566370614359172, -0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 18:00:32.145 32314] uid: 1edf356b-d4b1 | Append cmd l#3
+[I|2026-06-09 18:00:32.190 32339] uid: 1edf356b-d4b1 | Notified l#3 [0] finish:true (0)
+[I|2026-06-09 18:00:32.191 32314] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 17:59:19.110 32314] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 17:59:19.110 32314] uid: 1edf356b-d4b1 | Connect to 192.168.71.160 from 192.168.71.51
+[I|2026-06-09 17:59:19.199 32314] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 17:59:19.200 32314] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 17:59:19.243 32314] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 18:05:40.362 33155] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 18:05:40.362 33155] uid: 1edf356b-d4b1 | Connect to 192.168.71.161 from 192.168.71.51
+[I|2026-06-09 18:05:40.450 33155] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 18:05:40.451 33155] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 18:05:40.494 33155] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 18:05:47.340 33183] uid: 1edf356b-d4b1 | Process posture trans:[-0.037, 0.8, -0.2], rpy:[-2.5656340004316642, 1.2566370614359172, -0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 18:05:47.340 33183] uid: 1edf356b-d4b1 | Append cmd l#0
+[I|2026-06-09 18:05:47.382 33183] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 18:05:48.978 33180] uid: 1edf356b-d4b1 | Notified l#0 [0] finish:true (0)
+[I|2026-06-09 18:05:59.264 33182] uid: 1edf356b-d4b1 | Process posture trans:[0, 0.8, -0.2], rpy:[-2.5656340004316642, 1.2566370614359172, -0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 18:05:59.264 33182] uid: 1edf356b-d4b1 | Append cmd l#1
+[I|2026-06-09 18:05:59.311 33182] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 18:06:00.900 33180] uid: 1edf356b-d4b1 | Notified l#1 [0] finish:true (0)
+[I|2026-06-09 18:06:05.481 33181] uid: 1edf356b-d4b1 | Process posture trans:[0, 0.8, -0.2], rpy:[-2.5656340004316642, 1.2566370614359172, -0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 18:06:05.481 33181] uid: 1edf356b-d4b1 | Append cmd l#2
+[I|2026-06-09 18:06:05.526 33180] uid: 1edf356b-d4b1 | Notified l#2 [0] finish:true (0)
+[I|2026-06-09 18:06:05.526 33181] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 18:06:12.147 33185] uid: 1edf356b-d4b1 | Process posture trans:[-0.037, 0.8, -0.2], rpy:[-2.5656340004316642, 1.2566370614359172, -0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 18:06:12.147 33185] uid: 1edf356b-d4b1 | Append cmd l#3
+[I|2026-06-09 18:06:12.190 33185] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 18:06:13.788 33180] uid: 1edf356b-d4b1 | Notified l#3 [0] finish:true (0)
+[I|2026-06-09 18:06:19.190 33182] uid: 1edf356b-d4b1 | Process posture trans:[0, 0.8, -0.2], rpy:[-2.5656340004316642, 1.2566370614359172, -0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 18:06:19.190 33182] uid: 1edf356b-d4b1 | Append cmd l#4
+[I|2026-06-09 18:06:19.235 33182] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 18:06:20.825 33180] uid: 1edf356b-d4b1 | Notified l#4 [0] finish:true (0)
+[I|2026-06-09 18:06:25.836 33184] uid: 1edf356b-d4b1 | Process posture trans:[-0.037, 0.8, -0.2], rpy:[-2.5656340004316642, 1.2566370614359172, -0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 18:06:25.836 33184] uid: 1edf356b-d4b1 | Append cmd l#5
+[I|2026-06-09 18:06:25.878 33184] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 18:06:27.475 33180] uid: 1edf356b-d4b1 | Notified l#5 [0] finish:true (0)
+[I|2026-06-09 18:06:30.809 33185] uid: 1edf356b-d4b1 | Process posture trans:[0, 0.8, -0.2], rpy:[-2.5656340004316642, 1.2566370614359172, -0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 18:06:30.809 33185] uid: 1edf356b-d4b1 | Append cmd l#6
+[I|2026-06-09 18:06:30.855 33185] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 18:06:32.443 33180] uid: 1edf356b-d4b1 | Notified l#6 [0] finish:true (0)
+[I|2026-06-09 18:05:40.174 33155] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 18:05:40.174 33155] uid: 1edf356b-d4b1 | Connect to 192.168.71.160 from 192.168.71.51
+[I|2026-06-09 18:05:40.262 33155] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 18:05:40.263 33155] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 18:05:40.306 33155] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 19:57:08.419 36357] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 19:57:08.419 36357] uid: 1edf356b-d4b1 | Connect to 192.168.71.161 from 192.168.71.51
+[I|2026-06-09 19:57:08.506 36357] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 19:57:08.507 36357] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 19:57:08.550 36357] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 19:59:01.101 36384] uid: 1edf356b-d4b1 | Process posture trans:[0.571, -0.415, -0.073], rpy:[2.2, 0.6, 2.4] , s:50, z:5, js:-1
+[I|2026-06-09 19:59:01.101 36384] uid: 1edf356b-d4b1 | Append cmd l#1
+[I|2026-06-09 19:59:01.146 36384] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 19:59:01.147 36382] uid: 1edf356b-d4b1 | Notified l#1 [0] finish:false (-50102)
+[I|2026-06-09 20:00:34.205 36383] uid: 1edf356b-d4b1 | Process posture trans:[0.571727, -0.415561, -0.073156], rpy:[2.2, 0.6, 2.4] , s:50, z:5, js:-1
+[I|2026-06-09 20:00:34.205 36383] uid: 1edf356b-d4b1 | Append cmd l#2
+[I|2026-06-09 20:00:34.250 36382] uid: 1edf356b-d4b1 | Notified l#2 [0] finish:false (-50102)
+[I|2026-06-09 20:00:34.251 36383] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 20:02:18.358 36385] uid: 1edf356b-d4b1 | Process posture trans:[0, -0.415561, 0], rpy:[2.2, 0.6, 2.4] , s:50, z:5, js:-1
+[I|2026-06-09 20:02:18.358 36385] uid: 1edf356b-d4b1 | Append cmd l#3
+[I|2026-06-09 20:02:18.402 36385] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 20:02:18.402 36382] uid: 1edf356b-d4b1 | Notified l#3 [0] finish:false (-50102)
+[I|2026-06-09 20:02:52.432 36386] uid: 1edf356b-d4b1 | Process posture trans:[-0.037, 0.8, -0.2], rpy:[-2.5656340004316642, 1.2566370614359172, -0.9599310885968813] , s:50, z:5, js:-1
+[I|2026-06-09 20:02:52.432 36386] uid: 1edf356b-d4b1 | Append cmd l#4
+[I|2026-06-09 20:02:52.474 36386] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 20:02:52.474 36382] uid: 1edf356b-d4b1 | Notified l#4 [0] finish:false (-50102)
+[I|2026-06-09 20:07:38.819 38512] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 20:07:38.819 38512] uid: 1edf356b-d4b1 | Connect to 192.168.71.161 from 192.168.71.51
+[I|2026-06-09 20:07:38.906 38512] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 20:07:38.907 38512] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 20:07:38.950 38512] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 20:08:40.614 38541] uid: 1edf356b-d4b1 | Process posture trans:[0.571, -0.415, -0.073], rpy:[2.2, 0.6, 2.4] , s:50, z:5, js:-1
+[I|2026-06-09 20:08:40.614 38541] uid: 1edf356b-d4b1 | Append cmd l#1
+[I|2026-06-09 20:08:40.658 38541] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 20:08:40.658 38537] uid: 1edf356b-d4b1 | Notified l#1 [0] finish:false (-50102)
+[I|2026-06-09 20:15:07.171 40367] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 20:15:07.171 40367] uid: 1edf356b-d4b1 | Connect to 192.168.71.161 from 192.168.71.51
+[I|2026-06-09 20:15:07.258 40367] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 20:15:07.259 40367] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 20:15:07.302 40367] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 20:15:27.757 40394] uid: 1edf356b-d4b1 | Process posture trans:[0.571, -0.415, -0.073], rpy:[2.2, 0.6, 2.4] , s:50, z:5, js:-1
+[I|2026-06-09 20:15:27.757 40394] uid: 1edf356b-d4b1 | Append cmd l#0
+[I|2026-06-09 20:15:27.802 40392] uid: 1edf356b-d4b1 | Notified l#0 [0] finish:false (-50002)
+[I|2026-06-09 20:15:27.803 40394] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 20:15:59.561 40367] uid: 1edf356b-d4b1 | Process posture trans:[0.571, 0.415, -0.073], rpy:[2.2, 0.6, 2.4] , s:50, z:5, js:-1
+[I|2026-06-09 20:15:59.561 40367] uid: 1edf356b-d4b1 | Append cmd l#1
+[I|2026-06-09 20:15:59.607 40367] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 20:16:15.040 40392] uid: 1edf356b-d4b1 | Notified l#1 [0] finish:true (0)
+[I|2026-06-09 20:16:21.233 40393] uid: 1edf356b-d4b1 | Process posture trans:[0.571, 0.415, -0.2], rpy:[2.2, 0.6, 2.4] , s:50, z:5, js:-1
+[I|2026-06-09 20:16:21.233 40393] uid: 1edf356b-d4b1 | Append cmd l#2
+[I|2026-06-09 20:16:21.278 40393] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 20:16:25.885 40392] uid: 1edf356b-d4b1 | Notified l#2 [0] finish:true (0)
+[I|2026-06-09 20:16:52.482 40396] uid: 1edf356b-d4b1 | Process posture trans:[0.571, 0.43, -0.2], rpy:[2.2, 0.6, 2.4] , s:50, z:5, js:-1
+[I|2026-06-09 20:16:52.482 40396] uid: 1edf356b-d4b1 | Append cmd l#3
+[I|2026-06-09 20:16:52.531 40396] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 20:16:53.336 40392] uid: 1edf356b-d4b1 | Notified l#3 [0] finish:true (0)
+[I|2026-06-09 20:17:15.895 40395] uid: 1edf356b-d4b1 | Process posture trans:[0.5, 0.43, -0.2], rpy:[2.2, 0.6, 2.4] , s:50, z:5, js:-1
+[I|2026-06-09 20:17:15.895 40395] uid: 1edf356b-d4b1 | Append cmd l#4
+[I|2026-06-09 20:17:15.939 40395] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 20:17:18.669 40392] uid: 1edf356b-d4b1 | Notified l#4 [0] finish:true (0)
+[I|2026-06-09 20:17:50.597 40397] uid: 1edf356b-d4b1 | Process posture trans:[0.5, 0.43, -0.2], rpy:[2, 0.6, 2.4] , s:50, z:5, js:-1
+[I|2026-06-09 20:17:50.597 40397] uid: 1edf356b-d4b1 | Append cmd l#5
+[I|2026-06-09 20:17:50.643 40397] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 20:17:51.054 40392] uid: 1edf356b-d4b1 | Notified l#5 [0] finish:true (0)
+[I|2026-06-09 20:18:01.481 40395] uid: 1edf356b-d4b1 | Process posture trans:[0.5, 0.43, -0.2], rpy:[2, 1, 2.4] , s:50, z:5, js:-1
+[I|2026-06-09 20:18:01.481 40395] uid: 1edf356b-d4b1 | Append cmd l#6
+[I|2026-06-09 20:18:01.526 40395] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 20:18:01.989 40392] uid: 1edf356b-d4b1 | Notified l#6 [0] finish:true (0)
+[I|2026-06-09 20:18:11.029 40394] uid: 1edf356b-d4b1 | Process posture trans:[0.5, 0.43, -0.2], rpy:[2, 0.6, 2] , s:50, z:5, js:-1
+[I|2026-06-09 20:18:11.029 40394] uid: 1edf356b-d4b1 | Append cmd l#7
+[I|2026-06-09 20:18:11.075 40394] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 20:18:11.630 40392] uid: 1edf356b-d4b1 | Notified l#7 [0] finish:true (0)
+[I|2026-06-09 20:15:06.979 40367] uid: 1edf356b-d4b1 | re-watch event: moveExecution 
+[I|2026-06-09 20:15:06.979 40367] uid: 1edf356b-d4b1 | Connect to 192.168.71.160 from 192.168.71.51
+[I|2026-06-09 20:15:07.066 40367] uid: 1edf356b-d4b1 | setOperationMode end, switch to auto (0)
+[I|2026-06-09 20:15:07.067 40367] uid: 1edf356b-d4b1 | setMotionControlMode end, mode: NrtCommand (0)
+[I|2026-06-09 20:15:07.110 40367] uid: 1edf356b-d4b1 | setPowerState end, switch motor true (0)
+[I|2026-06-09 20:18:31.512 40393] uid: 1edf356b-d4b1 | Process posture trans:[0.5, -0.43, -0.2], rpy:[-2.9, 0.83, 2.9] , s:50, z:5, js:-1
+[I|2026-06-09 20:18:31.512 40393] uid: 1edf356b-d4b1 | Append cmd l#8
+[I|2026-06-09 20:18:31.559 40393] uid: 1edf356b-d4b1 | moveStart end (0)
+[I|2026-06-09 20:18:32.933 40385] uid: 1edf356b-d4b1 | Notified l#8 [0] finish:true (0)

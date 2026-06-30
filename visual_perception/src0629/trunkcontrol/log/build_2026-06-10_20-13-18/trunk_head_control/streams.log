@@ -1,0 +1,5 @@
+[0.015s] Invoking command in '/home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control -- -j6 -l6
+[0.094s] gmake[2]: *** No rule to make target '../../lib/Linux/aarch64/libxCoreSDK.so', needed by 'bin/trunk_head_movej_node'.  Stop.
+[0.094s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/trunk_head_movej_node.dir/all] Error 2
+[0.095s] gmake: *** [Makefile:146: all] Error 2
+[0.100s] Invoked command in '/home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control -- -j6 -l6

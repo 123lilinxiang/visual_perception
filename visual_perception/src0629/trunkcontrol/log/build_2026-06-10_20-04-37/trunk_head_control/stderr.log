@@ -1,0 +1,3 @@
+gmake[2]: *** No rule to make target '../../lib/Linux/aarch64/libxCoreSDK.so', needed by 'bin/trunk_head_movej_node'.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/trunk_head_movej_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

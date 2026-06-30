@@ -1,0 +1,9 @@
+gmake[2]: *** No rule to make target '/libxCoreSDK.so.0.5.1', needed by 'bin/rokae_movel_ros_node'.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/src/example/ae_movel_ros_node.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Krokae/robot.h: No such file or directory
+   10 | #include [01;31m[K"rokae/robot.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rokae_movel_ros_node.dir/build.make:76: CMakeFiles/rokae_movel_ros_node.dir/src/example/ae_movel_ros_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rokae_movel_ros_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

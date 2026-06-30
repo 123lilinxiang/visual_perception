@@ -1,0 +1,2 @@
+Invoking command in '/home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/admin/vsproject/trunk_demo_0.5.1 -DCMAKE_INSTALL_PREFIX=/home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control
+Invoked command in '/home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/admin/vsproject/trunk_demo_0.5.1 -DCMAKE_INSTALL_PREFIX=/home/admin/vsproject/trunk_demo_0.5.1/install/trunk_head_control

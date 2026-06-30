@@ -1,0 +1,10 @@
+/home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control/CMakeFiles/uninstall.dir
+/home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control/CMakeFiles/trunk_head_control_uninstall.dir
+/home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control/CMakeFiles/trunk_head_movej_node.dir
+/home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control/CMakeFiles/test.dir
+/home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control/CMakeFiles/edit_cache.dir
+/home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control/CMakeFiles/rebuild_cache.dir
+/home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control/CMakeFiles/list_install_components.dir
+/home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control/CMakeFiles/install.dir
+/home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control/CMakeFiles/install/local.dir
+/home/admin/vsproject/trunk_demo_0.5.1/build/trunk_head_control/CMakeFiles/install/strip.dir

@@ -1,0 +1,7 @@
+[0.016s] Invoking command in '/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/build/rokae_ros_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/build/rokae_ros_control -- -j6 -l6
+[0.083s] [35m[1mConsolidate compiler generated dependencies of target rokae_movel_ros_node[0m
+[0.121s] [ 50%] [32mBuilding CXX object CMakeFiles/rokae_movel_ros_node.dir/src/example/movel_control.cpp.o[0m
+[2.636s] gmake[2]: *** [CMakeFiles/rokae_movel_ros_node.dir/build.make:76: CMakeFiles/rokae_movel_ros_node.dir/src/example/movel_control.cpp.o] Interrupt
+[2.636s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rokae_movel_ros_node.dir/all] Interrupt
+[2.637s] gmake: *** [Makefile:146: all] Interrupt
+[2.665s] Invoked command in '/home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/build/rokae_ros_control' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/admin/vsproject/xCoreSDK-v0.7.1.ar_5/build/rokae_ros_control -- -j6 -l6
