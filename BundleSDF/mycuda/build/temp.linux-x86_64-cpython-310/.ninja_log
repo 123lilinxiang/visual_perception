@@ -1,0 +1,5 @@
+# ninja log v7
+0	11425	1783077599442467253	/home/zxl/project/BundleSDF/mycuda/build/temp.linux-x86_64-cpython-310/bindings.o	551da0222c4a48c8
+1	44304	1783077599443467265	/home/zxl/project/BundleSDF/mycuda/build/temp.linux-x86_64-cpython-310/common.o	3d8fffee3ea30a1d
+3	11525	1783077644007975765	/home/zxl/project/BundleSDF/mycuda/build/temp.linux-x86_64-cpython-310/torch_ngp_grid_encoder/bindings.o	718e1be1a3a3c99f
+3	70855	1783077644007975765	/home/zxl/project/BundleSDF/mycuda/build/temp.linux-x86_64-cpython-310/torch_ngp_grid_encoder/gridencoder.o	e90f11af84ce4135
