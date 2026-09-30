@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="yolo"
+        exec="yolo"
+        name="yolo"
+        output="screen"
+        respawn="true"
+        respawn_delay="5.0">
+  </node>
+</launch>

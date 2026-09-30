@@ -1,0 +1,38 @@
+# engine_path 必须改为当前 AGX Orin 上用同版本 TensorRT 生成的 engine。
+# 不设置 input_size 时，自动使用固定模型尺寸或动态模型 profile 0 的 OPT 尺寸。
+# 可在 predictor 下设置 input_size: [640, 640]（必须在引擎允许范围内）。
+detector:
+  # 可选值：obb / detection
+  detect_mode: "detection"
+
+  obb_predictor:
+    engine_path: "/home/zxl/project/visual_perception/models/best1.engine"
+    score_threshold: 0.25
+    iou_threshold: 0.65
+    topk: 1
+    num_labels: 1
+
+    # 法向量采样点相对检测中心的纵向偏移；负值表示向上
+    normal_offset_y: -50
+    normal_radius: 10
+
+    # [x_offset, y_offset, z_offset, angle_offset]
+    offset0: [0.0, 0.0, 0.0, 0.0]
+
+  detection_predictor:
+    engine_path: "/home/zxl/project/visual_perception/models/best.engine"
+    score_threshold: 0.25
+    iou_threshold: 0.65
+    topk: 100
+
+    # 必须与普通 Detection engine 的训练类别数一致
+    num_labels: 1
+
+    # [x_offset, y_offset, z_offset, angle_offset]
+    offset0: [0.0, 0.0, 0.0, 0.0]
+
+coord_trans:
+  head_joint_yaw_offset: [0.0, 0.0, 0.0]
+  head_joint_pitch_offset: [0.0, 0.0, 0.0]
+  camera_offset: [0.0, 0.0, 0.0]
+  camera_tilt: 65.0
